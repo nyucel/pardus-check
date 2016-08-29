@@ -20,8 +20,10 @@ packages_file = file(packages_file_path).read()
 
 packages_list = packages_file.split('\n\n')
 for package_info in packages_list:
+    if len(package_info) < 10:
+	continue
     package_name = get_package_name(package_info)
     package_version = get_package_version(package_info)
     package_sha1sum = get_package_sha1sum(package_info)
-    print package_name, package_version, package_sha1sum
+    print package_name, package_sha1sum
 
