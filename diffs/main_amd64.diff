@@ -1,0 +1,448 @@
+--- debian/main_amd64.txt	2016-08-29 14:12:44.715383676 +0300
++++ pardus/main_amd64.txt	2016-08-29 22:45:09.343692486 +0300
+@@ -288,6 +288,41 @@
+ ./a/agtl/agtl_0.8.0.3-1_all.deb 170e9de5501785365f16f50483bcf6d78c0a9fb9
+ ./a/aha/aha_0.4.7.2-1_amd64.deb 9fa1de77499bbf86e921fc2aea550c45834672f7
+ ./a/ahcpd/ahcpd_0.53-2_amd64.deb 8f15379cee27fb0a2c1b562dd3ef2252e90df2fd
++./a/ahtapot-fusioninventory-agent/ahtapot-fusioninventory-agent_2.3.10.1-1_amd64.deb aae951b7f9f9271707ac3046c048a6a5f4777a44
++./a/ahtapot-gdys-gui/ahtapot-gdys-gui_1.0.10_all.deb c26908b846990f1b66b3a8cf815a94ca5dfef11e
++./a/ahtapot-gdys-gui/ahtapot-gdys-gui_1.0.6_all.deb 5594817f230a7589ae24b9c1f05eeec6ffe1d4d5
++./a/ahtapot-gdys-gui/ahtapot-gdys-gui_1.0.7_all.deb 4d9b6952b5e3ac255c4f3b3dead8c26e9db2f44d
++./a/ahtapot-gdys-gui/ahtapot-gdys-gui_1.0.8_all.deb 41cc8b9bbe5327328ab03323d2bbe20259ddbed3
++./a/ahtapot-gdys-gui/ahtapot-gdys-gui_1.0.9_all.deb 997239a181660df9b99d91c4eb7a9d544f4c41db
++./a/ahtapot-gdys-gui/ahtapot-gdys-gui_1.1.0_all.deb 600a698a481facc48a83bd1741d93ec4071a9434
++./a/ahtapot-gkts/ahtapot-gkts_1.0.2_all.deb 76323f9ff58ca4ff9aef1c0da9b2cd872ea34465
++./a/ahtapot-gkts/ahtapot-gkts_1.0.4_all.deb 867a1d3e03d5e48a8ce1117475251cc80d6e2080
++./a/ahtapot-gkts/ahtapot-gkts_1.0.6_all.deb 8d81325f556668ebd9d51e32ce270d9c6a29e398
++./a/ahtapot-gly/ahtapot-gly_1.0.1_all.deb a617c516d2ffd75f50f210bad824a4c12fa1af05
++./a/ahtapot-lkk/ahtapot-lkk_1.0.2_all.deb 6310362ad03fb7ea5f2d84c007ad5443f4874971
++./a/ahtapot-lkk/ahtapot-lkk_1.0.3_all.deb 75428b78bfe2b2c8b59d51ca10dda9c9d277cc4d
++./a/ahtapot-lkk/ahtapot-lkk_1.1.0_all.deb a3c3fdecd9cf44af7701f6e0288f53046e0668cc
++./a/ahtapot-lkk/ahtapot-lkk_1.1.3_all.deb ac0a8ba715bc978d1e650a98f2d8c5ff87eec82c
++./a/ahtapot-lkk/ahtapot-lkk_1.1.4_all.deb 3d30e13536b50a199bab8d93a564b96a727347b8
++./a/ahtapot-lkk/ahtapot-lkk_1.1.5_all.deb 137ba5a72a072a17a9ce973e23862d2404b24153
++./a/ahtapot-lkk/ahtapot-lkk_1.1.6_all.deb d2888de9f4992b7b49865a9c7943851cd6ae0f02
++./a/ahtapot-lkk/ahtapot-lkks-gui_1.0.2_all.deb 00011ea931800b2b433f913d7716e9dad4c2c9f4
++./a/ahtapot-man/ahtapot-man_1.0.1_all.deb edeee542ecbf5991060e909ea3524610b7ba5bd3
++./a/ahtapot-mys/ahtapot-mys_1.0.1_all.deb 31fb7ff8519eb9078ae6c6f4eea0d1d01ab88d88
++./a/ahtapot-mys/ahtapot-mys_1.0.2_all.deb 8ac9932bd79779b28484cd37155fb7bca62f8bb5
++./a/ahtapot-mys/ahtapot-mys_1.0.3_all.deb c42b15343e8847318d3f65bc1232f9bf50528cdd
++./a/ahtapot-mys/ahtapot-mys_1.0.4_all.deb 138e64c9b1b825a248ae03f7481b1475f35f2ea0
++./a/ahtapot-mys/ahtapot-mys_1.0.5_all.deb 7e9087e809027aa2615333906e51a7042963938e
++./a/ahtapot-mys/ahtapot-mys_1.0.6_all.deb 2115b793a144bc402507bb5ac9d6b964661cf789
++./a/ahtapot-mys/ahtapot-mys_1.0.8_all.deb 3ad32e24dc6e7943fbda3272976a2c69e1d139ff
++./a/ahtapot-mys/ahtapot-mys_1.1.0_all.deb 7f14e894ebadac319473f3cda996a65598bd6c33
++./a/ahtapot-ocs-wb/ahtapot-ocs-wb_1.0.1_all.deb be7b34228d18d0c9b6274c5d346e235c20f7a90a
++./a/ahtapot-ocs-wb/ahtapot-ocs-wb_1.0.2_all.deb fa75e75c179ef7d97f78e84df9a158fc69a84112
++./a/ahtapot-ocs-wb-alarm/ahtapot-ocs-wb-alarm_1.0.1_all.deb 162fb073ec996ba6fc14c415fdb8a4baabfe70ea
++./a/ahtapot-ocs-wb-alarm/ahtapot-ocs-wb-alarm_1.0.2_all.deb 49928ab254442662b9ac2c22eefecc9bd2e8fffb
++./a/ahtapot-portscan/ahtapot-portscan_1.0.0_all.deb de514817b3312de0b6175f887805efac2054c183
++./a/ahtapot-portscan/ahtapot-portscan_1.0.1_all.deb 3e11ba053c7db640fbea351d5dcb64feb19aea2e
++./a/ahtapot-pwlm/ahtapot-pwlm_1.0.1_all.deb b7e0f8b2b658cb5914ccfb4ac7ab178f722b0337
+ ./a/ahven/ahven-dbg_2.4+repack-1_amd64.deb 62ab55c6fbc5f7e4fbbf4a3f473e6d1c82f77cf9
+ ./a/ahven/libahven24.0_2.4+repack-1_amd64.deb 7263a47e0191d1a960054d38a629b5db5d6dbab4
+ ./a/ahven/libahven4-dev_2.4+repack-1_amd64.deb d9046b639715569802632558eaf57e2c10e02445
+@@ -315,6 +350,9 @@
+ ./a/aisleriot/gnome-cards-data_3.14.1-1_all.deb f6dbea0b55a547682b0b78921686b9bd7d021f97
+ ./a/ajaxterm/ajaxterm_0.10-12_all.deb 8ad7132650eed16b67b2999c74407b3989574140
+ ./a/aj-snapshot/aj-snapshot_0.9.6-1_amd64.deb 7b610ed6a9fb3a448421ffac83af4bc93859d035
++./a/akis/akis_1.5_amd64.deb 3de6a001aebb2fb8c8f07719314970f0af17cbae
++./a/akis/akis_1.6_amd64.deb c25c4d03161f1fcde51f9396d6f46164c54abb36
++./a/akis/akis_1.6+update1_amd64.deb 9ec1df77ba525e62edbe5fdab266cdfbcdbf8ede
+ ./a/akonadi/akonadi-backend-mysql_1.13.0-2+deb8u1_all.deb 79b5d24b5c19b778c957a4847cf5d8f12032a81e
+ ./a/akonadi/akonadi-backend-postgresql_1.13.0-2+deb8u1_all.deb 7cd21c9019c1c5e516c6887b96ccbace99b32e56
+ ./a/akonadi/akonadi-backend-sqlite_1.13.0-2+deb8u1_amd64.deb 676c2367159d35f745c8ab9e20ffb31ca19df0d3
+@@ -1565,13 +1603,13 @@
+ ./b/barman/barman_1.3.3-1_all.deb e568b19a44f5b0ad1b7577d544a0696aa27839ac
+ ./b/barnowl/barnowl_1.9-1+b2_amd64.deb 2d035b3f4cbf6f2eed2ba1f8470808f895964754
+ ./b/barrage/barrage_1.0.4-1_amd64.deb bb8242f0d48e7e3f792b32188c959f1933417e91
+-./b/base-files/base-files_8+deb8u5_amd64.deb 84e5045a91aae5a89053554cace5f1ea7e5a6fff
++./b/base-files/base-files_8+deb8u5_amd64.deb 2462e0840fb4d89df3360c2cbb35c96ab245b639
+ ./b/basemap/python-mpltoolkits.basemap_1.0.7+dfsg-1_amd64.deb 5368d85c96ca3ab3a74852f4c3d03311378e7bdf
+ ./b/basemap/python-mpltoolkits.basemap-data_1.0.7+dfsg-1_all.deb a50b75b644d292eb22fd34aa9a5fd8d843855532
+ ./b/basemap/python-mpltoolkits.basemap-doc_1.0.7+dfsg-1_all.deb cd657a4285e5b2ceed62435ea7715dc654cbbeda
+ ./b/base-passwd/base-passwd_3.5.37_amd64.deb 36efa182cd7362adbbcad62131af7100cce82c27
+ ./b/basex/basex_7.9-1_all.deb 1e883db9a24fae4e92ef71ffa89482abe574fc8b
+-./b/bash/bash_4.3-11+b1_amd64.deb 8ed20c394c70e69311623bf6c38bedf6a9d86d45
++./b/bash/bash_4.3-11+b1_amd64.deb 959631a2fb1d18cd7749185a7a25151ef27b1a76
+ ./b/bash/bash-builtins_4.3-11+b1_amd64.deb cb384b5aaceab0f98e3659cba9935f989bd95b08
+ ./b/bash/bash-doc_4.3-11_all.deb 28de6cc21cca028d557f690693ae2de2d55f0ca3
+ ./b/bash/bash-static_4.3-11+b1_amd64.deb 09c2236dd561f7c27c3c3627fd74d3ee9dba5c65
+@@ -3870,7 +3908,7 @@
+ ./c/console-setup/console-setup-freebsd_1.123_all.deb bde11de60b74d33d55c2f10a51360adee9ae340f
+ ./c/console-setup/console-setup-linux_1.123_all.deb f5a15dca4f76879e25224bbc8ff4090a8371b1c8
+ ./c/console-setup/console-setup-mini_1.123_all.deb f09383a7cfa87ac4214d4748eb83eb8a7c418cc4
+-./c/console-setup/keyboard-configuration_1.123_all.deb a747f61a04cd8f2429dd813bc7139aa6931eea9c
++./c/console-setup/keyboard-configuration_1.123_all.deb 5b1aab5345a1ea880b60e7d8e49db788e8881d1c
+ ./c/conspy/conspy_1.10-1_amd64.deb 090aaf6cdb7f2434bc3c9866ea44535313d4d5c0
+ ./c/construct/python3-construct_2.5.1-1_all.deb 77b32b2617aa06fb7db3eaf5aa87aa198d78fa45
+ ./c/construct/python-construct_2.5.1-1_all.deb c5ef6bda75898e3a6ba5b6de53adf0e01027b1be
+@@ -4760,7 +4798,7 @@
+ ./d/debian-goodies/debian-goodies_0.63_all.deb cc8df92f25460dd89f688cc5be5c715906b4a5b6
+ ./d/debian-handbook/debian-handbook_8.20151209~deb8u1_all.deb acaf011ee14e183a1daf024e8fcd26ac4502380f
+ ./d/debian-history/debian-history_2.19_all.deb c72d776dbac8deb75a118dec50d00a37d78186a4
+-./d/debian-installer/debian-installer_20150422+deb8u4_amd64.deb e3a4eb59b06bb2498ee7994aba97ed22148c0167
++./d/debian-installer/debian-installer_20150422+deb8u4_amd64.deb 9b3350528cc376b7af4052762c38d0baeae74d0c
+ ./d/debian-installer-launcher/debian-installer-launcher_19+deb8u1_all.deb baa9c3ad9c809ec379a2f005a3525be05fc21971
+ ./d/debian-installer-netboot-images/debian-installer-8-netboot-amd64_20150422+deb8u4_all.deb e6d0f42c2f494bf8fb5c0aeab7f9cf6d7dc2d44a
+ ./d/debian-installer-netboot-images/debian-installer-8-netboot-arm64_20150422+deb8u4_all.deb 80247ee3af15d9cac8fdbacac7d9c2a2740ff182
+@@ -4908,7 +4946,7 @@
+ ./d/debirf/debirf_0.34_all.deb ed875e91107aafd543e58a666feddd33c16182ca
+ ./d/debmirror/debmirror_2.16_all.deb 5ae1d5d6eb16b62cd1e37e14e4c69261f04a2af9
+ ./d/debomatic/debomatic_0.13-1_all.deb 79e5a70da1a07d45dff75980941a1ebda20f0279
+-./d/debootstrap/debootstrap_1.0.67_all.deb f42f244fb4468c76b48c946ca51a6cd5d61d7850
++./d/debootstrap/debootstrap_1.0.67_all.deb 1021c294444866837eb79eeb20715bba6db5e42a
+ ./d/deborphan/deborphan_1.7.28.8-0.1_amd64.deb 85c64d92cfee39c520e0b1c1305f3b6a93e720c5
+ ./d/debpartial-mirror/debpartial-mirror_0.3.1_all.deb 69294ad7f7208f05d3fec27f445b31d4ba65f611
+ ./d/debpear/debpear_0.4_all.deb 30ed93c1d279ebea7421c3992813f218e7d6fe92
+@@ -4979,7 +5017,7 @@
+ ./d/designate/python-designate_2014.1-18+deb8u1_all.deb 95faa42edfbc6c6ddf8d043d201a2e4c144d50fa
+ ./d/desklaunch/desklaunch_1.1.8_amd64.deb be43d914972e5aae897f03c15a42757dbd39756f
+ ./d/deskmenu/deskmenu_1.4.5_amd64.deb 09213248d519cf38df907d254f0415ac6c139a95
+-./d/desktop-base/desktop-base_8.0.2_all.deb 9d397ed1b64e2bbd810b0737828753b110a043bd
++./d/desktop-base/desktop-base_8.0.2_all.deb f117f59ede3433b59a2b5e86fe80fed5a9f071f8
+ ./d/desktop-file-utils/desktop-file-utils_0.22-1_amd64.deb 6ed34abf29d246e5eded6aab38482dddc29d0a36
+ ./d/desktopnova/desktopnova_0.8.1-1_amd64.deb 33e588d42cff0b37ea212108787991e33fe4d3b6
+ ./d/desktopnova/desktopnova-module-gnome_0.8.1-1_amd64.deb c76adc11d7ccc79605a3260bc0f7ab79fb16e588
+@@ -5276,6 +5314,7 @@
+ ./d/django-guardian/python-django-guardian-doc_1.2.4+git20141127-0.2_all.deb fbf7bec817333e3c74f88e29ca09625c800ecd5a
+ ./d/django-haystack/python-django-haystack_2.3.1-1_all.deb d5683467af8b9b6b1dbe30013d118fa40ca6aeb3
+ ./d/django-haystack/python-django-haystack-doc_2.3.1-1_all.deb 12f4afecf2d36fdc8308c46c022c76e34f7054ad
++./d/django-jet/django-jet_0.1.4_all.deb 7414acc5b4c2f30fe3b249e98dc61ecf4f1b84cd
+ ./d/django-macaddress/python-django-macaddress_1.2.0-1_all.deb 6ff7237ac6d94275b44b6ce9ca3925fc50c25d0c
+ ./d/django-markupfield/python3-django-markupfield_1.2.1-2+deb8u1_all.deb 2ed377522fe7678b655dac953211bb7212a76ed6
+ ./d/django-markupfield/python-django-markupfield_1.2.1-2+deb8u1_all.deb c225b4afd08b9bc3c7416a4522183dd5906be097
+@@ -7119,6 +7158,10 @@
+ ./f/firedns/firedns_0.9.12+dfsg-3_amd64.deb 6b15753d507901810eb520724a692ae3cc87bea1
+ ./f/firedns/libfiredns0.9_0.9.12+dfsg-3_amd64.deb f056016a4edbb0661a49227ed6cc1c55c080d139
+ ./f/firedns/libfiredns-dev_0.9.12+dfsg-3_amd64.deb 7522c1db85822bffd2e52eebcbb4a225768d79a8
++./f/firefox-esr/firefox-esr_45.0.1esr-1_amd64.deb cff5efa2b7f134fab510f8455dcf10fcc55eebc1
++./f/firefox-esr/firefox-esr-l10n-tr_45.0.1esr-1_all.deb 9416f2aa785df44a3a1171cfd2b3c5a279b9f843
++./f/firefox/firefox_37.0~linuxmint1+betsy_amd64.deb 937e6e11f44420e43f3ca6c93232995c403eeaa1
++./f/firefox/firefox-l10n-tr_37.0~linuxmint1+betsy_amd64.deb 83fb847aa416abfc2008a4863a2f7c17677b2a07
+ ./f/firegestures/xul-ext-firegestures_1.8.7-1_all.deb efaf1117db7c02ba9d01bcb5cea81f91862305ac
+ ./f/firehol/firehol_1.297-1_all.deb 68dcb754fb6a48fd9aa1364e945091b2bbc02087
+ ./f/firestring/libfirestring0.9_0.9.12-8_amd64.deb 6b9e961607ef68b0be353589e260390f5192ef1e
+@@ -8223,6 +8266,7 @@
+ ./f/fuse-exfat/exfat-fuse_1.1.0-2+deb8u1_amd64.deb 65a96b6ceac8721e2a2b512bca6aa031c5aaaf56
+ ./f/fuse/fuse_2.9.3-15+deb8u2_amd64.deb 2239e6b069e0c0e0e765259e13cc940e56f3f4f2
+ ./f/fuse/fuse-dbg_2.9.3-15+deb8u2_amd64.deb 75365ae7c843679fabfe7b29216aa93886beabfd
++./f/fuse/fuse-utils_2.9.0-2+deb7u2_all.deb f4533a74982fa60f368cf86bdbb992044733d986
+ ./f/fuse/libfuse2_2.9.3-15+deb8u2_amd64.deb 2301cdd59e9142ff50ddb02152f7689685230385
+ ./f/fuse/libfuse-dev_2.9.3-15+deb8u2_amd64.deb 97ec10647d0149d205dcc64c0725c49996d417ce
+ ./f/fuse-posixovl/fuse-posixovl_1.2.20120215+gitf5bfe35-1_amd64.deb 9344d43ed762de025232af685b55d0f3f3b7acbc
+@@ -9073,7 +9117,7 @@
+ ./g/gdl/libgdl-3-dbg_3.14.0-2_amd64.deb d64d8868c2b9ca5ab92703f23479a9c51fc9a9a0
+ ./g/gdl/libgdl-3-dev_3.14.0-2_amd64.deb 59f17a057e39eb7d5f68e58883c3a38de85907e8
+ ./g/gdl/libgdl-3-doc_3.14.0-2_all.deb f946e9ed18fb5d27122dee7ce3a1f5ad130378c1
+-./g/gdm3/gdm3_3.14.1-7_amd64.deb 99eb075bed9f8a32dcc707ae79fa016a5ae87c91
++./g/gdm3/gdm3_3.14.1-7_amd64.deb 70c364b2a7b87d61512a1dc6f9d3dcff25810fd4
+ ./g/gdm3/gir1.2-gdm3_3.14.1-7_amd64.deb 3551fc08d60f139d856c5eee30755481a77bf001
+ ./g/gdm3/libgdm1_3.14.1-7_amd64.deb 7a1a3dd654a5b3e750e6d522573bd7130042561a
+ ./g/gdm3/libgdm-dev_3.14.1-7_amd64.deb 90c245cf111f917d2947328c7b534d29288f541f
+@@ -9510,6 +9554,7 @@
+ ./g/gitit/libghc-gitit-dev_0.10.4-2_amd64.deb 27100cfd29305a9f5b52e067d775f61a91cbd998
+ ./g/gitit/libghc-gitit-doc_0.10.4-2_all.deb 1cb5b78e2c482c0a9a6267571ef1d0c29638dd22
+ ./g/gitit/libghc-gitit-prof_0.10.4-2_amd64.deb eb21a854aa4ccfbf38bcd818855c4369abdde99f
++./g/gitlab-ce/gitlab-ce_8.4.4-ce.0_amd64.deb 413df7df738a76cc8c55e4c9df8e54b16bc2a514
+ ./g/gitmagic/gitmagic_20140125-1_all.deb 71a14bf0cfaa13bdcbd6548e5d45d1efe908eab2
+ ./g/git-notifier/git-notifier_0.41-6-1_all.deb a7b3edd47e765204a570d982eff2b54a563e6e8d
+ ./g/gitolite3/gitolite3_3.6.1-2+deb8u1_all.deb acfb72e2140bdef9640e7290d4134052a32f67b7
+@@ -10175,6 +10220,7 @@
+ ./g/gnome-mplayer/gnome-mplayer_1.0.9-3_amd64.deb c6711c11fe891a4faa690fd40d7c65fc60773abf
+ ./g/gnome-mplayer/gnome-mplayer-dbg_1.0.9-3_amd64.deb 0b30e70e8437c7d513e17a77e6eebe69eb88f148
+ ./g/gnome-mud/gnome-mud_0.11.2-1_amd64.deb 6428cb35edd90be82e7c9ef9b36a9a1d5bbe32c4
++./g/gnome-multi-writer/gnome-multi-writer_3.20.0-1_amd64.deb 001d8b3c81459a43592b87a3ab3ce9d42e1f1802
+ ./g/gnome-music/gnome-music_3.14.1-1_amd64.deb c9e2c7431dad800cdaadc7724d2577d48469fee2
+ ./g/gnome-nds-thumbnailer/gnome-nds-thumbnailer_3.0.0-1_amd64.deb f2f8e618e13a3266fc14811d7b1768c99c4af5d5
+ ./g/gnome-nettool/gnome-nettool_3.8.1-1_amd64.deb cb210c94ccbaa5a1dac1cb70bca565dcc9f7d40b
+@@ -10465,6 +10511,7 @@
+ ./g/gnustep-sqlclient/libsqlclient1.7_1.7.3-2_amd64.deb 37d230e1da1efe7eea5c0b9438a5ad55c914bdec
+ ./g/gnustep-sqlclient/libsqlclient1.7-dbg_1.7.3-2_amd64.deb 4319a557fc7e1c4335313c147ed3729d27738487
+ ./g/gnustep-sqlclient/libsqlclient-dev_1.7.3-2_amd64.deb 959d8fd32f6005b138ec0f4e5fcf610aa8fccb0f
++./g/gnutls26/libgnutls26_2.12.20-8+deb7u5_amd64.deb 2860358fd030b29360f5b844401cc6ef006752d3
+ ./g/gnutls28/gnutls-bin_3.3.8-6+deb8u3_amd64.deb c92dfb0af84a891bfe9ea1de29a7deda6d1dc0a4
+ ./g/gnutls28/gnutls-doc_3.3.8-6+deb8u3_all.deb ce72f27c1d0cbd51668d2b87e4d762efbb77e5a3
+ ./g/gnutls28/guile-gnutls_3.3.8-6+deb8u3_amd64.deb 966535e8f174a6758d8b9fb399b3f7a283d54840
+@@ -10601,6 +10648,7 @@
+ ./g/google-apputils-python/python3-google-apputils_0.4.1-1_all.deb 7a05774417852a641d05b387309dba39cf6a738a
+ ./g/google-apputils-python/python-google-apputils_0.4.1-1_all.deb b5220773fd44e852d45aec0aaae7a919dc0bdf81
+ ./g/google-authenticator/libpam-google-authenticator_20130529-2_amd64.deb bb4cc2f4c0d2ba3d6ebb3ff85dc12bb44319adad
++./g/google-chrome-stable/google-chrome-stable_current_amd64.deb 3d8e09777b9eb333ae5f7ff21e25a2cbd04ff52b
+ ./g/googlefontdirectory-tools/googlefontdirectory-tools_20120309.1-1_all.deb 84b7659c2e0c6e43c6239323121431d222ab3a7f
+ ./g/google-glog/libgoogle-glog0_0.3.3-2_amd64.deb 1ed5261e58b00fefe877282bd76b7e8be4fccf5e
+ ./g/google-glog/libgoogle-glog-dev_0.3.3-2_amd64.deb adeba8460a371e71dddb85c0877dd088751f798b
+@@ -14566,6 +14614,7 @@
+ ./i/ifupdown/ifupdown_0.7.53.1_amd64.deb 19ed1885e553e839a74b633093f52e61b7f05a2f
+ ./i/ifupdown-multi/ifupdown-multi_0.1.1_all.deb 2fea690c37783fdfbe2cfd6dbea77dc80cec094f
+ ./i/ifupdown-scripts-zg2/ifupdown-scripts-zg2_0.6-1_all.deb 511436dc00cb641e5b060106fcee7d97b40a56e2
++./i/ifuse/ifuse_1.0.0-1+b1_amd64.deb c9f0fe4fd8f5d84a968fefe7ff4ba26bce495ca5
+ ./i/igaelic/igaelic_0.50-10_amd64.deb 20d4c3320bb958547cac42d05c5954e5a2704a00
+ ./i/igaelic/myspell-gd_0.50-10_all.deb 00978eca9fe04b3fc9b36cb8b70c3ae164e3d8e3
+ ./i/igaelic/wgaelic_0.50-10_all.deb bac88d21d74ca7fd5dcca933421497fd78f3d97d
+@@ -16129,7 +16178,7 @@
+ ./k/kde-workspace/kde-workspace-dev_4.11.13-2_amd64.deb e7f9e997e8fae19489b06684125a9cee3ffed0bf
+ ./k/kde-workspace/kde-workspace-kgreet-plugins_4.11.13-2_amd64.deb 3cf5db10b64ea63c9b26997d200a1743d9fa622d
+ ./k/kde-workspace/kde-workspace-randr_4.11.13-2_amd64.deb 30d7271fc17b55978726d080da02375eebdb1511
+-./k/kde-workspace/kdm_4.11.13-2_amd64.deb a257dae118b18af863849195034a0af1426352a6
++./k/kde-workspace/kdm_4.11.13-2_amd64.deb 590b011f61d467721f15a8ad6d9e259f7bc89a4a
+ ./k/kde-workspace/kinfocenter_4.11.13-2_amd64.deb c2bd87a3f1a93b24a686691b1ed8b51b03aab639
+ ./k/kde-workspace/klipper_4.11.13-2_amd64.deb bbf1a080e9bd8591e8975456a6977602b389f319
+ ./k/kde-workspace/kmenuedit_4.11.13-2_amd64.deb 3122db09966b939476aeff942898904ac00b164b
+@@ -16154,7 +16203,7 @@
+ ./k/kde-workspace/libtaskmanager4abi4_4.11.13-2_amd64.deb 8084549f3165af79b0201cc0b3c0e91a2b63c4fe
+ ./k/kde-workspace/libweather-ion6_4.11.13-2_amd64.deb 308aa56a6083a01ba619e1fac66b2492e8bbe255
+ ./k/kde-workspace/plasma-dataengines-workspace_4.11.13-2_amd64.deb 63d0c310703859dbc7bb60168d819f706566aaad
+-./k/kde-workspace/plasma-desktop_4.11.13-2_amd64.deb 90d218e267a596034a8c7c33a5d689b4ce0eb372
++./k/kde-workspace/plasma-desktop_4.11.13-2_amd64.deb ee425e6dec90096f1474236ebcd26ce2deec6c12
+ ./k/kde-workspace/plasma-netbook_4.11.13-2_amd64.deb e245e248abc666cd14f030f4ee05c5bbe2a5d916
+ ./k/kde-workspace/plasma-scriptengine-python_4.11.13-2_all.deb 606655850c4157002d2cd45917c2dfa0b5f609fd
+ ./k/kde-workspace/plasma-scriptengine-ruby_4.11.13-2_all.deb 51acab41fe78a36b0dc0f2186400b669ea645182
+@@ -16169,6 +16218,7 @@
+ ./k/kdiff3/kdiff3-doc_0.9.98-1_all.deb 3a322b5dc8996db4920e6dcfc8ed9c03af9049d6
+ ./k/kdiff3/kdiff3-qt_0.9.98-1_amd64.deb 81b7b74a890f3f22bd22e3c969fe7fdde98ac0c5
+ ./k/kdm-gdmcompat/kdm-gdmcompat_0.13-2_all.deb 25f561045f111c971da438fe0c1a485ab89a5d5f
++./k/kdm-theme-pardus-2014/kdm-theme-pardus-2014_1_all.deb 7067b7b677daef0e6325c9fb5d6a5ebd8fbd0a46
+ ./k/kdnssd/kde-zeroconf_4.13.1-1_amd64.deb 03429d9bc57f98c303570fd3ff6bb6236a57b5b7
+ ./k/kdocker/kdocker_4.6-2_amd64.deb e8db8690e6df38fc4a2d5da2d0212feb141a3aa2
+ ./k/kdrill/kanadic_6.5deb2-10_all.deb acf5a18aede646b1c16af6f5408ee1c7d192e45a
+@@ -16246,6 +16296,7 @@
+ ./k/khronos-opencl-man/opencl-1.2-man-doc_1.0~svn27110-1_all.deb 2e942147e2f3928b89f80f22696b397e63beba6e
+ ./k/khronos-opengl-man4/opengl-4-html-doc_1.0~svn27841-1_all.deb 460fedfb4d9a1ffbac824ad655a8ee0dfee7797c
+ ./k/khronos-opengl-man4/opengl-4-man-doc_1.0~svn27841-1_all.deb 226f773dc40430eb170b8edde048892266f25b7e
++./k/kibana/kibana_4.5.0_amd64.deb e9a829161d18e6f9f08f978c292053b5ffc6799a
+ ./k/kicad/kicad_0.20140622+bzr4027-3_amd64.deb c999191521298f0adf7e184d87453f649a73d637
+ ./k/kicad/kicad-common_0.20140622+bzr4027-3_all.deb 65770667a65c9ebce0f4988a0ea98ae13ab91a93
+ ./k/kicad/kicad-doc-de_0.20140622+bzr4027-3_all.deb dd54fdb9b73630087f9bd4c606221abeb4d003eb
+@@ -16479,6 +16530,7 @@
+ ./k/ksnakeduel/ktron_4.14.0-1_amd64.deb 7daeec5c3892fede7a7bfb1b17bafc4fe08f5b79
+ ./k/ksnapshot/ksnapshot_4.12.2-2_amd64.deb 6902319a7f89da01003d1fe65ae807882d2be2ad
+ ./k/kspaceduel/kspaceduel_4.12.2-2_amd64.deb db1ddf3b192b224fc6a6037bc927027d4507bc93
++./k/ksplash-theme-pardus-sonsuz/ksplash-theme-pardus-sonsuz_1.1_all.deb 856a0cb58e794467e7d8812fc5f9d75f596aea3c
+ ./k/ksplice/ksplice_0.9.9-5_amd64.deb d48b29f712b4e1e7bb2ee17c58fc9b0001ba1539
+ ./k/ksquares/ksquares_4.12.2-2_amd64.deb 83cd66450943bca1e5b71fb81ddd4de9fa48b417
+ ./k/ksshaskpass/ksshaskpass_0.5.3-1+b1_amd64.deb ecb8b2d98293b17753b165e8d66fc184a24d13fc
+@@ -18663,6 +18715,7 @@
+ ./libg/libgconf-bridge/libgconf-bridge0_0.1-2.2_amd64.deb 14d349cd5603a53d4d781deed5019a75800d66fb
+ ./libg/libgconf-bridge/libgconf-bridge-dev_0.1-2.2_amd64.deb 281147fb4e27165a042f228a983d628cf6fe6229
+ ./libg/libgcr410/libgcr410_2.4.0-9.2_amd64.deb cb29a5c4dd541db0e279b4d982acb98a3f418996
++./libg/libgcrypt11/libgcrypt11_1.5.0-5+deb7u4_amd64.deb dde555891d95ed5731e48f4ad5b063432d982a28
+ ./libg/libgcrypt20/libgcrypt11-dev_1.5.4-3+really1.6.3-2+deb8u1_all.deb 7794e01ef714f29f82ed5cc21661a32159c831c0
+ ./libg/libgcrypt20/libgcrypt20_1.6.3-2+deb8u1_amd64.deb c4741d13c6ed8559cc7100848b91bac327d2916a
+ ./libg/libgcrypt20/libgcrypt20-dbg_1.6.3-2+deb8u1_amd64.deb 5816977285478194fcfe313f634d9456846ef582
+@@ -19047,6 +19100,7 @@
+ ./libg/libguestfs/ruby-guestfs_1.28.1-1_amd64.deb 0ffef58e1f1bc653540fc1b7a17e34e4a53d6be7
+ ./libg/libgusb/gir1.2-gusb-1.0_0.1.6-5_amd64.deb 546408ceb1c8ac5ec4d445b16b1aac4807221f51
+ ./libg/libgusb/libgusb2_0.1.6-5_amd64.deb 5666791d3247657028ca39deca997eae44d72736
++./libg/libgusb/libgusb2_0.2.9-1_amd64.deb 300ddb193294c3334fa496be0487e8c4c876fd48
+ ./libg/libgusb/libgusb-dev_0.1.6-5_amd64.deb 990cc247e066e376af278996080652b81c54c1bd
+ ./libg/libgusb/libgusb-doc_0.1.6-5_all.deb e3b6b94e41780f9ad209099f7bf42d313ec6caf7
+ ./libg/libguytools2/libguytools2_2.0.1-1.1_amd64.deb 8fcb0b062299f796dbd295c677985a96cc5b217e
+@@ -19329,6 +19383,7 @@
+ ./libi/libimage-size-perl/libimage-size-perl_3.232-1_all.deb 07a315a9d8776e5c7aa35c41f45258d50e247532
+ ./libi/libimap-admin-perl/libimap-admin-perl_1.6.7-1_all.deb d635b51caa9725db3faa58225501c336a4e6f727
+ ./libi/libimdb-film-perl/libimdb-film-perl_0.53-1_all.deb c3bc1483cf598b973187662ed78b527645ae1b7c
++./libi/libimobiledevice/libimobiledevice2_1.1.1-4_amd64.deb 5803f445c2a082e70080a064653ace95a964523a
+ ./libi/libimobiledevice/libimobiledevice4_1.1.6+dfsg-3.1_amd64.deb 04a59debde6cf69c6fbf8cb443a3a0a52b97e608
+ ./libi/libimobiledevice/libimobiledevice4-dbg_1.1.6+dfsg-3.1_amd64.deb ce7bf90905e267e514d9e3cb060e632ee339a2d6
+ ./libi/libimobiledevice/libimobiledevice-dev_1.1.6+dfsg-3.1_amd64.deb 3ba273ca38d21e9339fa2bfa7284857faf6a93de
+@@ -21235,6 +21290,7 @@
+ ./libp/libplayer/libplayer-bin_2.0.1-2.4_amd64.deb 7d023460367b206b93e94cf78225f82a128400e5
+ ./libp/libplayer/libplayer-dev_2.0.1-2.4_amd64.deb 2f7c35f9493fd611d9639ae8bd5d56dd7fcaecb4
+ ./libp/libplayer/libplayer-doc_2.0.1-2.4_all.deb 90b9fb9fe43f9c158129f626a1758e971673d8d2
++./libp/libplist/libplist1_1.8-1_amd64.deb a94581449dc835fb28bf4875092458f362558938
+ ./libp/libplist/libplist++2_1.11-3_amd64.deb 48f21fe3b876696f826392f0038938a597377bd6
+ ./libp/libplist/libplist2_1.11-3_amd64.deb 8124aa16d6382968af1421d52d110f9be331970a
+ ./libp/libplist/libplist-dbg_1.11-3_amd64.deb 4c92333ab6523d64f56710690a069524103eae9d
+@@ -22329,6 +22385,7 @@
+ ./libt/libtar/libtar0_1.2.20-4+b1_amd64.deb 695995b63ec940982b1fb3ac8c95ae308c589cea
+ ./libt/libtar/libtar-dev_1.2.20-4+b1_amd64.deb 29660bfdf39fe2e50a05f8e092c8790b6a9d5104
+ ./libt/libtask-weaken-perl/libtask-weaken-perl_1.04-1_all.deb 359c03d7d2b69753fe12ec5257b04016158cdc77
++./libt/libtasn1-3/libtasn1-3_2.13-2+deb7u2_amd64.deb cca0a7c75a81a43068e7f3132d65df90159bee3f
+ ./libt/libtasn1-6/libtasn1-3-bin_4.2-3+deb8u2_all.deb 212edc25cae823f368ec0fcadc1356e0eb549447
+ ./libt/libtasn1-6/libtasn1-6_4.2-3+deb8u2_amd64.deb ed34fc53e50f07a0dd5f42c6084c777e38308039
+ ./libt/libtasn1-6/libtasn1-6-dbg_4.2-3+deb8u2_amd64.deb e207761d8b1389b07fb901e16a9ab9c608438c7b
+@@ -24347,6 +24404,7 @@
+ ./l/logservice/logcentral_2.7-1_amd64.deb 9eb912332fcb099bbe9050cefa19bb94ef6974a9
+ ./l/logservice/logcentral-tools_2.7-1_amd64.deb 7f06e842245c9e195dca5b7fece4f4554fd6ae51
+ ./l/logstalgia/logstalgia_1.0.6-1_amd64.deb 3caa34e0aa8b605d001cb2686a8010ea3d1b163f
++./l/logstash/logstash_2.3.1-1_all.deb e38b9ea83a20b2e45b30e96c4d32d4e509769d19
+ ./l/logster/logster_0.0.1-2_all.deb 36f7e06672312541fcf40a1ecb29bd78833b5053
+ ./l/logtool/logtool_1.2.8-8_amd64.deb 713710ede51ca1a935ffb37a4d219e441a212f1f
+ ./l/logtools/logtools_0.13d_amd64.deb e0682eecfd8a97382cd90c258642d9191341c403
+@@ -25017,6 +25075,7 @@
+ ./m/massxpert/massxpert-data_3.4.1-1_all.deb 39e66bafbd9bc68d40f8831f9c2af0e39fb9ffd8
+ ./m/massxpert/massxpert-dbg_3.4.1-1_amd64.deb 73b606feffc555f6604f99ab82d15cd9eb81fe74
+ ./m/massxpert/massxpert-doc_3.4.1-1_all.deb 3d5e17af78605fdfe803884c2476eda6656dbb24
++./m/master-pdf-editor3/master-pdf-editor-3.6.30_amd64.deb 55455ef47376e82c2644af88c76bddbbf9dfaf9d
+ ./m/matanza/matanza_0.13+ds1-5_amd64.deb 8c3e9836dd4324523fd460d6785970c9bba4aa3f
+ ./m/matchbox-common/matchbox-common_0.9.1-5_all.deb cd197f79ce3fe1ce26337d2c115825e1cee62a16
+ ./m/matchbox-desktop/matchbox-desktop_2.0-4_amd64.deb 8114323d7b108626335465bed73bc94a78b22192
+@@ -25742,6 +25801,7 @@
+ ./m/mjpegtools/mjpegtools-gtk_2.1.0+debian-3_amd64.deb bd27dcdd3f55f01c54f8724f4b9c873c3652370b
+ ./m/mk-configure/mk-configure_0.28.0-1_all.deb ea6051ac4750f0eedad7bdb749ed606b2e63bc38
+ ./m/mkcue/mkcue_1-4_amd64.deb 99fc7556c96fba3f28a21cacd09bfb047bbbfa56
++./m/mkefi/mkefi_0.1_all.deb 4675683006f629a7052bd186e26b645f471f1a72
+ ./m/mkelfimage/mkelfimage_2.7-7_amd64.deb bd02ea1250c80e226cd523778c3dad2a2fe0219b
+ ./m/mkgmapgui/mkgmapgui_1.1.ds-2_all.deb c63fd5380b1a1829e7e310feb143e16c94f5ca1f
+ ./m/mkgmap/mkgmap_0.0.0+svn3333-1_all.deb cb16ca11ea011dd83da310a9fb918afcc81888be
+@@ -27871,6 +27931,7 @@
+ ./n/nx-libs-lite/libxcomp3_3.5.0.27-1+b2_amd64.deb 42e53d778dc43d40c27676e21273c44d3f7e03f2
+ ./n/nx-libs-lite/libxcomp-dev_3.5.0.27-1+b2_amd64.deb fe48e6fedfbcffdbf4db80e530bff686c9a5e2d7
+ ./n/nx-libs-lite/nxproxy_3.5.0.27-1+b2_amd64.deb f4c58734064dace2c1f73c7c3e301285f6062e92
++./n/nxlog-ce/nxlog-ce_2.8.1248_amd64.deb f2169b132233141738e185265d9bdd47c39646a7
+ ./n/nxt-python/python-nxt_2.2.2-2_all.deb 4cdfeca8027176f05dfbf946d536a435a30e93a4
+ ./n/nxt-python/python-nxt-filer_2.2.2-2_all.deb ac321b2544e77387c07dd5b84abc82223ad2fb00
+ ./n/nyancat/nyancat_1.4.4-1_amd64.deb 614b2dbc51862f30120df89f9a2608e6f59f4207
+@@ -29291,6 +29352,13 @@
+ ./p/parcellite/parcellite_1.1.9-1_amd64.deb 8a9ac350114e474720210958c9a92b167f315c72
+ ./p/parchive/parchive_1.1-4_amd64.deb 31e82ecd76cc1109d9635b96331496bfb506757d
+ ./p/parcimonie/parcimonie_0.8.4-1_all.deb 8e47074eec587be625d239cd70ac2a820c5922d6
++./p/pardus-archive-keyring/pardus-archive-keyring_1.1_all.deb 55d94c28a91cecb4a9d09587ed1a69290cd5fc61
++./p/pardus-archive-keyring/pardus-archive-keyring_1.4_all.deb 834aa25a9283920a2e35974e47c811ad3a52f3a9
++./p/pardus-archive-keyring/pardus-archive-keyring_1_all.deb b4f067673df91a46ed8d850a0e561046b7436d9e
++./p/pardus-artwork-bulut/pardus-artwork-bulut_1.1_all.deb 6bdd98e1bd04e3d9cc122f006a54f0106e9c2f1d
++./p/pardus-artwork-bulut/pardus-artwork-bulut_1.2.1_all.deb 6b5574ec9609ef5fd380f8d2b292e76893b55d44
++./p/pardus-artwork-bulut/pardus-artwork-bulut_1.2_all.deb 8a56d57e41580c0f76ea6a6827eef4e99926d1dd
++./p/pardus-icons-ironvolt/pardus-icons-ironvolt_1_all.deb 6bbd2b035d736944a4aecca55103996920a91052
+ ./p/paredit-el/paredit-el_20-2_all.deb 64ed6fe215b20c1a7e59d19a3f540b89fde30b64
+ ./p/pari-elldata/pari-elldata_0.20140908-1_all.deb 238a3a0e775bfa425827e256e2c0b6ee4b0ac7d7
+ ./p/pari-galdata/pari-galdata_0.20080411-2_all.deb 8ec90c7266dd994b5ac3afafab7e1b47fec2e56a
+@@ -30369,7 +30437,7 @@
+ ./p/planner/planner-doc_0.14.6-4_all.deb 1913c39ceb0359d18185a9cb227b44d7cb470502
+ ./p/plan/netplan_1.10.1-5_amd64.deb cf20423bde30445828454795d84607687ec3aa91
+ ./p/plan/plan_1.10.1-5_amd64.deb 51c3ede533ad434b11a0acfdc817bee08f0d6992
+-./p/plasma-nm/plasma-nm_0.9.3.4-2_amd64.deb 8a3d0c4980ca790a1140677f1871b253c837214e
++./p/plasma-nm/plasma-nm_0.9.3.4-2_amd64.deb df5d57041c893f225f2a4981732cc956a3387825
+ ./p/plasma-nm/plasma-nm-dbg_0.9.3.4-2_amd64.deb ce412bb8be66831fc9f77996ca878daa9c6a01fc
+ ./p/plasma-nm/plasma-widget-networkmanagement_0.9.3.4-2_all.deb 2a24b297209033c2bb9804fa1b4f4f4c7b258e48
+ ./p/plasma-nm/plasma-widget-networkmanagement-dbg_0.9.3.4-2_all.deb 4cbd8ceb10cebc07361fac6aa109d0e92e948069
+@@ -30503,6 +30571,7 @@
+ ./p/plymouth/plymouth-dev_0.9.0-9_amd64.deb c247d84d8acf00509eee22b977655ada0be4fd25
+ ./p/plymouth/plymouth-themes_0.9.0-9_amd64.deb 6f0d76d8836283a31c78b888608de5a9aeaf82e8
+ ./p/plymouth/plymouth-x11_0.9.0-9_amd64.deb e1bcd91606ec91db98babed1a26cdd195da6efa4
++./p/plymouth-theme-pardus-2014/plymouth-theme-pardus-2014_1_all.deb 1d168d2dce743c759ac93122a3adaf0db2ae1347
+ ./p/ply/python3-ply_3.4-5_all.deb 6a428592938474e42021a3e79f924c80f4568a62
+ ./p/ply/python-ply_3.4-5_all.deb 9c4b3790f3c710e152555c854b593d59bb6920d4
+ ./p/ply/python-ply-doc_3.4-5_all.deb 63137252904f563c53996dcc26701bc02b6729a7
+@@ -31459,6 +31528,7 @@
+ ./p/pymvpa2/python-mvpa2_2.3.1-2_all.deb 656f98b2523eca92c85aabe5a94818aa3c9fc93f
+ ./p/pymvpa2/python-mvpa2-doc_2.3.1-2_all.deb a3b862563fce513573a81ee8f64414a7fcbae612
+ ./p/pymvpa2/python-mvpa2-lib_2.3.1-2_amd64.deb 55e1db39808a62f027f7bfb5655f3baac74cb78f
++./p/pymysql/python-pymysql_0.7.5-1_all.deb 55155dd0b7990e5f5d476dce68faa1a47584bb68
+ ./p/pynac/libpynac0_0.3.2+dfsg-1_amd64.deb 5adb62d6a504bd0c78f2a14c07a42fe95423eef4
+ ./p/pynac/libpynac-dev_0.3.2+dfsg-1_amd64.deb f589a6bf0ced603d4f4c31fd57019706d2078602
+ ./p/pynagram/pynagram_1.0.1-1_all.deb c4ce6169fe92e91927de6b6de5f8f4bf5349f594
+@@ -32060,7 +32130,9 @@
+ ./p/python-django-pyscss/python-django-pyscss_1.0.3-3_all.deb 2b95a8d8d7dc95d3289a8d559a48e3fddfd24009
+ ./p/python-django/python3-django_1.7.7-1+deb8u4_all.deb 7d4302320aab07c482b63aafece5c2c4173e37d6
+ ./p/python-django/python-django_1.7.7-1+deb8u4_all.deb 0a052de6f4129a2477a2dd2605f27830341975ea
++./p/python-django/python-django_1.9.6-1_all.deb b1b55549e2aca36ca9e330eb681b1d1550852eb1
+ ./p/python-django/python-django-common_1.7.7-1+deb8u4_all.deb bc144f2c117ee1cda47cef7d2ab298df5590fb34
++./p/python-django/python-django-common_1.9.6-1_all.deb 4a18b0085c6d819c3fb6f8f97076f532587862cf
+ ./p/python-django/python-django-doc_1.7.7-1+deb8u4_all.deb 426955e8a2438f4bda1cceaeec2307a0a6180cca
+ ./p/python-django-registration/python-django-registration_1.0+dfsg-2_all.deb 5e91d4cf7be42ed756ab2fe9c07709a2e9f835ae
+ ./p/python-django-rosetta/python-django-rosetta_0.7.2-1_all.deb 54e7e7db68ce92530662b4af4709bd6fe766a3cb
+@@ -32640,6 +32712,7 @@
+ ./p/python-pytils/python-pytils_0.3-1_all.deb ad87df81ed3f9d5a1d3f84ad3f34e958025d38eb
+ ./p/python-pytils/python-pytils-doc_0.3-1_all.deb 5f4fcc521fb6b23665849cde3894f3a651b8def5
+ ./p/python-pytyrant/python-pytyrant_1.1.17-1_amd64.deb 3f7371d9babdcb255766e9fbaf41ed9ccb288eb8
++./p/python-pytz/python-pytz_1.0.0_all.deb ab353adbfaadf7bc504d4bcc045130124828e9db
+ ./p/python-pyvmomi/python3-pyvmomi_5.5.0-2014.1.1-2_all.deb b9775a53ba9caf9eddad19a84766b9e5523e4786
+ ./p/python-pyvmomi/python-pyvmomi_5.5.0-2014.1.1-2_all.deb 61cf97991c9d858237449a85c9f9644339ef27df
+ ./p/python-pyvmomi/python-pyvmomi-doc_5.5.0-2014.1.1-2_all.deb 1a96d98c99122526518c214680b4198c5b0a6f52
+@@ -33045,7 +33118,7 @@
+ ./q/qapt/libqapt-dev_1.3.0-2.1_amd64.deb da6e4577c33181b47bbdc6423224029da7dca05c
+ ./q/qapt/libqapt-runtime_1.3.0-2.1_amd64.deb c2c847c2dabfa738558aa0c6df9cd4e430efa4b5
+ ./q/qapt/plasma-runner-installer_1.3.0-2.1_amd64.deb 8765a0008c398046b662b07297605db70d1e6108
+-./q/qapt/qapt-batch_1.3.0-2.1_amd64.deb f7dacaec06bb05eff9e399bfc94dfb838eb2adc9
++./q/qapt/qapt-batch_1.3.0-2.1_amd64.deb 1cc265bf1d470776212d522964ef8c632db5db0d
+ ./q/qapt/qapt-dbg_1.3.0-2.1_amd64.deb d74516595468aa9e163a857e631a5c3d01668f26
+ ./q/qapt/qapt-deb-installer_1.3.0-2.1_amd64.deb c318c6949266a4657e510bc8d00af79b122a3e17
+ ./q/qapt/qapt-utils_1.3.0-2.1_amd64.deb 4eaeee557423559b630367e981acd06d9d579158
+@@ -35941,6 +36014,8 @@
+ ./s/searchandrescue/searchandrescue-common_1.5.0-2_all.deb 73e96199ba1da59c35dd5b6d9a778da2e83caff9
+ ./s/search-ccsb/search-ccsb_0.5-3_all.deb 274ea3ffbc4db57fa88fcede9eb0f1d19b8e2905
+ ./s/search-citeseer/search-citeseer_0.3-1_all.deb 59e04727a9ededb2ffc867492eea6d5360d81856
++./s/search-guard/search-guard_2.3.3_all.deb f1bcf2f904ce50f38eb58d1a8e2d7777d72876b1
++./s/search-guard-ssl/search-guard-ssl_2.3.3_all.deb e709ed0dd9ac2549f1e88e1983d5414b7773765b
+ ./s/searchload-options/xul-ext-searchload-options_0.8.0-2_all.deb d3f5c24f9c49ce8492aa54becc19fa67f341ebcb
+ ./s/searchmonkey/searchmonkey_0.8.1-9_amd64.deb 1068bbf6ac8785e2b91cb89ef64c642787004758
+ ./s/seascope/seascope_0.8-1_all.deb b65f50a48902c34ec2711651d6f6f28bfb49aa2c
+@@ -36280,6 +36355,7 @@
+ ./s/simpleparse/python-simpleparse-mxtexttools_2.1.0a1-6_amd64.deb 8959d27d89239435ab67e6656e24e76e737c488f
+ ./s/simplepie/libphp-simplepie_1.2.1-3_all.deb 548397ba8d8dd837d9be708e7b19a27cb1df57ba
+ ./s/simpleproxy/simpleproxy_3.4-7_amd64.deb d64d8b74d198b88ccd92c10c3c6be11319aec62f
++./s/simplerisk/simplerisk_20160124.004_all.deb 4619cf095e3ec4908bdb1d847d31c47fad107070
+ ./s/simplesamlphp/simplesamlphp_1.13.1-2_all.deb 04cfb29a5d0d0223045d3e6c7ebbab33504441ac
+ ./s/simple-scan/simple-scan_3.14.0-1_amd64.deb 1c19db3e5c9ee56114efecaed54381e171a43a1e
+ ./s/simple-scan/simple-scan-dbg_3.14.0-1_amd64.deb b4dee86a7dcd5452535ce0fa9ad4e5f2722d4c11
+@@ -37663,7 +37739,7 @@
+ ./s/sympy/python-sympy_0.7.5-3_all.deb f1dd4469200bda9c3212a5076580d763e625cc52
+ ./s/synaesthesia/synaesthesia_2.4-5_amd64.deb 269023280eeccc488b3b3aa1e658a4d4642bb574
+ ./s/synaptic/synaptic_0.81.2_amd64.deb f1051a74afdbd86cfcfc3469761048a715c09578
+-./s/synaptiks/kde-config-touchpad_0.8.1-2_all.deb 0e0b71150d9d338ba5e5ac883e4c99420053ede8
++./s/synaptiks/kde-config-touchpad_0.8.1-2_all.deb 484775f6984dca51311a36a7209ac07e56c5bbf7
+ ./s/syncache/syncache_1.2-1_all.deb 0323e5fc579dc6ea3d786fca0ad15a1802e71e14
+ ./s/synce-serial/synce-serial_0.11-5.3_amd64.deb 44ec029d81c97b63741eeebdb6dbf2bd80e5c545
+ ./s/syncevolution/libgdbussyncevo0_1.4.99.4-3+b1_amd64.deb 045bb5a50584e506111eb1717d8aee8ac9fa8d73
+@@ -37748,7 +37824,9 @@
+ ./s/sysstat/sysstat_11.0.1-1_amd64.deb 6d814a7c4bbb380884d63a817d701e815b67b0ed
+ ./s/system-config-cluster/system-config-cluster_1.0.57-1_all.deb 5ec47d107b214d32a9e1fa8673cc644f1f40dfbf
+ ./s/system-config-lvm/system-config-lvm_1.1.18-1_all.deb c22af82a65de619cc221f0efebc62fa568cde3db
++./s/system-config-printer/python-cupshelpers_1.4.3-4~bpo70+1_all.deb 5f41ccfc9afb26c82f9bb8cfc1bc38ab2bb473af
+ ./s/system-config-printer/python-cupshelpers_1.4.6-1_all.deb 072cce447b5e864b830249a8ca0f191d5ea7c130
++./s/system-config-printer/system-config-printer_1.4.3-4~bpo70+1_all.deb ce3894d35ffcec912ec33b783b94c32bde8c4045
+ ./s/system-config-printer/system-config-printer_1.4.6-1_all.deb 09abbb64a60d7744e67ff6dba8df47c6cb87993a
+ ./s/system-config-printer/system-config-printer-udev_1.4.6-1_amd64.deb c36c7b24d0e73810edb00b5b3b28547888940946
+ ./s/systemd-cron/systemd-cron_1.3.1+ds1-2_all.deb ebcf867876c48c9b1654468cb9b7a63564fa644c
+@@ -37794,7 +37872,7 @@
+ ./s/systune/systune_0.5.7_all.deb 80a088f92ad5218b1988cab712fe7c68e389de3d
+ ./s/sysvbanner/sysvbanner_1.0.15_amd64.deb d9dd9d885ea7f24cb6e37e8c9528a17e8dcfcdc1
+ ./s/sysvinit/bootlogd_2.88dsf-59_amd64.deb 95b632837d7cda32395e2c5a463795a1f8939cbe
+-./s/sysvinit/initscripts_2.88dsf-59_amd64.deb f96b3d3409e82330046f21c7994b8151d2805f3b
++./s/sysvinit/initscripts_2.88dsf-59_amd64.deb b0dc91ccc53f47559a8dac0535600f611a1c935b
+ ./s/sysvinit/sysvinit_2.88dsf-59_amd64.deb d04d22ac95a2e5f63b934cd8032d26acf18f792b
+ ./s/sysvinit/sysvinit-core_2.88dsf-59_amd64.deb 7805ed2124eeb50f497d1d069051a8859b4707b9
+ ./s/sysvinit/sysvinit-utils_2.88dsf-59_amd64.deb 50f1ec149c461283b1d9dc905d460eddc6f795ec
+@@ -38641,6 +38719,8 @@
+ ./t/thunar/thunar-dbg_1.6.3-2_amd64.deb f2f8ee524ecabd20c92dc1cc884320f6f18af9a3
+ ./t/thunar-vcs-plugin/thunar-vcs-plugin_0.1.4-2_amd64.deb feb6a9cf66edb0a6b836bde9374599014322b13e
+ ./t/thunar-volman/thunar-volman_0.8.0-4_amd64.deb e9ac54c8276617e6cd3d647fb46315205701fb35
++./t/thunderbird/thunderbird_31.5.0~linuxmint1+betsy_amd64.deb 3834d839b24f8b3496ce772db3c30bde8287594a
++./t/thunderbird/thunderbird-l10n-tr_31.5.0~linuxmint1+betsy_amd64.deb 5d62f637a174dcd86158ee5e5a05ec841f69c597
+ ./t/tiarra/tiarra_20100212-4_all.deb c09f57e409774ec3f86066b02ba341fb7d383e33
+ ./t/tiarra/tiarra-conf-el_20100212-4_all.deb 7ef6d86f0febfc1228a22179131c43d92f73fb65
+ ./t/ticcutils/libticcutils2_0.4-5.1_amd64.deb 653807d2e6234879e9f597bf5e5f505d065dbfd4
+@@ -38775,6 +38855,7 @@
+ ./t/tla/tla-doc_1.3.5+dfsg1-1_all.deb 17979ad675c38d5f4aca41ab293a07ccd7e3651f
+ ./t/tlf/tlf_1.1.5-1_amd64.deb 74883d9171c2dd9f8ab2351dc0e99c1bc99d8f1d
+ ./t/tlsdate/tlsdate_0.0.13-1~deb8u1_amd64.deb 37c7e7876eb874442aa8adc5463b8bfa1bd0cf84
++./t/tlsimgesi/tlsimgesi_1.0.0_all.deb 2069ebde20f20bb5342bd198d2edd3443dd8ec79
+ ./t/tmake/tmake_1.8-1.1_amd64.deb 680a9404237891a3cf410be27c8f644be79c5708
+ ./t/tm-align/tm-align_20140601+dfsg-1_amd64.deb 7b0b024f8e09efb92661dade8ae83113ab049460
+ ./t/tmexpand/tmexpand_0.1.2.0-3_all.deb 17748711e1dd123d7e8bc06bee81479ffb8773e3
+@@ -39678,6 +39759,7 @@
+ ./u/usb-modeswitch-data/usb-modeswitch-data_20150115-1_all.deb e47d524cf15ce93ba8c32316144fb65e6257f6bc
+ ./u/usb-modeswitch/usb-modeswitch_2.2.0+repack0-2_amd64.deb 3ad3b60c200b312c1caaccd172469d8c92345d3f
+ ./u/usbmount/usbmount_0.0.22_all.deb 9a4d4d88ac7f609a27db15235bed605f3f6dadc1
++./u/usbmuxd/libusbmuxd1_1.0.7-2_amd64.deb 6bac1fb5e704904f468b4bd60adb2d00e267a4bb
+ ./u/usbmuxd/usbmuxd_1.0.8+git20140527.e72f2f7-2_amd64.deb 8e9888b19ff267b6492668dffa363664c01239c1
+ ./u/usbmuxd/usbmuxd-dbg_1.0.8+git20140527.e72f2f7-2_amd64.deb f8179e2e7cdde374982425032c044e479229d5be
+ ./u/usbprog/libusbprog0_0.2.0-2.1_amd64.deb b97275128e07112fd39d5dfd4a926ffed31611bf
+@@ -40756,6 +40838,7 @@
+ ./w/wpa/wpagui_2.3-1+deb8u3_amd64.deb ab7797dc62f9ca746a34497094bf5ae9598fcbbc
+ ./w/wpa/wpasupplicant_2.3-1+deb8u3_amd64.deb 3e6d3eab80f6f9f0825a0de8fa63e0dcdaeeb96b
+ ./w/wpp/wpp_2.13.1.35-3_all.deb eb7fbd3512e6e28edcce9295244dd96d93be31cf
++./w/wps-office/wps-office_10.1.0.5503~a20p2_amd64.deb 22c7b01c1138a33183f1fda097bb1bd0e73bcf3b
+ ./w/wput/wput_0.6.2+git20130413-2+b1_amd64.deb e4ddcfcb4162a38830761cfdb62903bb115c57a9
+ ./w/wraplinux/wraplinux_1.7-8_amd64.deb f73a4d49416708787d98b3d48a34c21fcb03d34d
+ ./w/wraplinux/wraplinux-dbg_1.7-8_amd64.deb ba155dddb93505fcdbfbbc5c6437736eac3775c2
+@@ -41946,6 +42029,7 @@
+ ./z/zabbix/zabbix-server-mysql_2.2.7+dfsg-2_amd64.deb 58fd83c03590719be6c472b578e688bdd6f872bd
+ ./z/zabbix/zabbix-server-pgsql_2.2.7+dfsg-2_amd64.deb e085287ec49ff8993297ac4f41ad1c928bbfe1b7
+ ./z/zalign/zalign_0.9.1-1+b1_amd64.deb 8e52124fe60f74b5947d64e997f3756bf9b01b9b
++./z/zamaneconsole/zamaneconsole_1.0.1_all.deb 6fc37f7e0a4ed6f613bd32101ac730d5e89d0288
+ ./z/zam-plugins/zam-plugins_3.5~repack0-7_amd64.deb ded96211151c398dca0a62392b5b1da7b74182d0
+ ./z/zapping/zapping_0.10~cvs6-9+b1_amd64.deb a980c502e829137997fe4acd0cc7d666a450a027
+ ./z/zapping/zapping-dbg_0.10~cvs6-9+b1_amd64.deb 0b70e0a7a8e59872f56e2d2fc6bbc10439eeca28
