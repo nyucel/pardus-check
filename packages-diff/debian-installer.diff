@@ -1,0 +1,590 @@
+diff -Nuar debian/usr/share/doc/debian-installer/devel/internals/apb.html pardus/usr/share/doc/debian-installer/devel/internals/apb.html
+--- debian/usr/share/doc/debian-installer/devel/internals/apb.html	2016-06-02 13:15:03.000000000 +0300
++++ pardus/usr/share/doc/debian-installer/devel/internals/apb.html	2016-06-28 17:17:13.000000000 +0300
+@@ -27,17 +27,17 @@
+ <div class="toc">
+ <p><b>Table of Contents</b></p>
+ <dl class="toc">
+-<dt><span class="sect1"><a href="apb.html#idp61720960">B.1. run-parts type hooks</a></span></dt>
++<dt><span class="sect1"><a href="apb.html#idp48035952">B.1. run-parts type hooks</a></span></dt>
+ <dd><dl>
+ <dt><span class="sect2"><a href="apb.html#ap-hooks-boot">B.1.1. System boot</a></span></dt>
+ <dt><span class="sect2"><a href="apb.html#ap-hooks-general">B.1.2. General purpose run-parts hooks</a></span></dt>
+ <dt><span class="sect2"><a href="apb.html#ap-hooks-special">B.1.3. Special purpose run-parts hooks</a></span></dt>
+-<dt><span class="sect2"><a href="apb.html#idp61791120">B.1.4. Partitioning — deprecated components</a></span></dt>
++<dt><span class="sect2"><a href="apb.html#idp48106032">B.1.4. Partitioning — deprecated components</a></span></dt>
+ </dl></dd>
+-<dt><span class="sect1"><a href="apb.html#idp61798080">B.2. Other hooks</a></span></dt>
++<dt><span class="sect1"><a href="apb.html#idp48112992">B.2. Other hooks</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect2"><a href="apb.html#idp61799392">B.2.1. Hooks available for customization</a></span></dt>
+-<dt><span class="sect2"><a href="apb.html#idp61803968">B.2.2. Hooks reserved for internal use</a></span></dt>
++<dt><span class="sect2"><a href="apb.html#idp48114304">B.2.1. Hooks available for customization</a></span></dt>
++<dt><span class="sect2"><a href="apb.html#idp48118880">B.2.2. Hooks reserved for internal use</a></span></dt>
+ </dl></dd>
+ </dl>
+ </div>
+@@ -54,7 +54,7 @@
+ </p>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61720960"></a>B.1. run-parts type hooks</h2></div></div></div>
++<a name="idp48035952"></a>B.1. run-parts type hooks</h2></div></div></div>
+ <p>
+ 
+ This type of hook consists of a directory in which any component can drop
+@@ -172,7 +172,7 @@
+ </div>
+ <div class="sect2">
+ <div class="titlepage"><div><div><h3 class="title">
+-<a name="idp61791120"></a>B.1.4. Partitioning — deprecated components</h3></div></div></div>
++<a name="idp48106032"></a>B.1.4. Partitioning — deprecated components</h3></div></div></div>
+ <p>
+ 
+ The hooks listed in this section are from udebs that are only still
+@@ -209,7 +209,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61798080"></a>B.2. Other hooks</h2></div></div></div>
++<a name="idp48112992"></a>B.2. Other hooks</h2></div></div></div>
+ <p>
+ 
+ The hooks in this section do not contain scripts, but are single files or
+@@ -220,7 +220,7 @@
+ </p>
+ <div class="sect2">
+ <div class="titlepage"><div><div><h3 class="title">
+-<a name="idp61799392"></a>B.2.1. Hooks available for customization</h3></div></div></div>
++<a name="idp48114304"></a>B.2.1. Hooks available for customization</h3></div></div></div>
+ <div class="variablelist"><dl class="variablelist">
+ <dt>
+ <span class="term">/cdrom/.disk/udeb_include, </span><span class="term">/cdrom/.disk/udeb_exclude [anna]</span>
+@@ -240,7 +240,7 @@
+ </div>
+ <div class="sect2">
+ <div class="titlepage"><div><div><h3 class="title">
+-<a name="idp61803968"></a>B.2.2. Hooks reserved for internal use</h3></div></div></div>
++<a name="idp48118880"></a>B.2.2. Hooks reserved for internal use</h3></div></div></div>
+ <div class="variablelist"><dl class="variablelist">
+ <dt>
+ <span class="term">/var/lib/anna-install/queue, </span><span class="term">/var/lib/apt-install/queue [di-utils]</span>
+diff -Nuar debian/usr/share/doc/debian-installer/devel/internals/ch02.html pardus/usr/share/doc/debian-installer/devel/internals/ch02.html
+--- debian/usr/share/doc/debian-installer/devel/internals/ch02.html	2016-06-02 13:15:03.000000000 +0300
++++ pardus/usr/share/doc/debian-installer/devel/internals/ch02.html	2016-06-28 17:17:13.000000000 +0300
+@@ -29,13 +29,13 @@
+ <div class="toc">
+ <p><b>Table of Contents</b></p>
+ <dl class="toc">
+-<dt><span class="sect1"><a href="ch02.html#idp61086016">2.1. Installation methods</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47400704">2.1. Installation methods</a></span></dt>
+ <dt><span class="sect1"><a href="ch02.html#di-boot">2.2. The boot process</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61157232">2.3. The Debian Installer Menu</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47472080">2.3. The Debian Installer Menu</a></span></dt>
+ <dt><span class="sect1"><a href="ch02.html#hooks">2.4. Hooks provide additional flexibility</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61172000">2.5. Some special tools</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61187440">2.6. Automating the install using preseeding</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61203360">2.7. Debugging the installer</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47486848">2.5. Some special tools</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47502288">2.6. Automating the install using preseeding</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47518208">2.7. Debugging the installer</a></span></dt>
+ </dl>
+ </div>
+ <p>
+@@ -44,7 +44,7 @@
+ development of Squeeze, and are based on the CD-ROM and netboot installation
+ methods for x86 (the i386 and amd64 architectures). The choice for x86 was
+ made as this is most familiar to most users, but installations for other
+-architectures are not structurally different<a href="#ftn.idp59033968" class="footnote" name="idp59033968"><sup class="footnote">[1]</sup></a>.
++architectures are not structurally different<a href="#ftn.idp42556848" class="footnote" name="idp42556848"><sup class="footnote">[1]</sup></a>.
+ 
+ </p>
+ <p>
+@@ -79,7 +79,7 @@
+ 
+ The first three stages are where the fundamental difference between
+ installation methods can be seen. All components (udebs) used there need
+-to be included in the initrd<a href="#ftn.idp60273120" class="footnote" name="idp60273120"><sup class="footnote">[2]</sup></a> with which the installer is booted.
++to be included in the initrd<a href="#ftn.idp42561248" class="footnote" name="idp42561248"><sup class="footnote">[2]</sup></a> with which the installer is booted.
+ 
+ </p>
+ <p>
+@@ -235,7 +235,7 @@
+ </table></div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61086016"></a>2.1. Installation methods</h2></div></div></div>
++<a name="idp47400704"></a>2.1. Installation methods</h2></div></div></div>
+ <p>
+ 
+ The installer supports a lot of different installation methods and in some
+@@ -254,7 +254,7 @@
+ From where are packages needed to install the base system retrieved?
+  </li>
+ <li class="listitem">
+-From where are packages needed to install tasks retrieved<a href="#ftn.idp61088288" class="footnote" name="idp61088288"><sup class="footnote">[3]</sup></a>?
++From where are packages needed to install tasks retrieved<a href="#ftn.idp47403136" class="footnote" name="idp47403136"><sup class="footnote">[3]</sup></a>?
+  </li>
+ </ul></div>
+ <p>
+@@ -502,7 +502,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61157232"></a>2.3. The Debian Installer Menu</h2></div></div></div>
++<a name="idp47472080"></a>2.3. The Debian Installer Menu</h2></div></div></div>
+ <p>
+ 
+ The component <code class="classname">main-menu</code> drives the rest of the
+@@ -616,7 +616,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61172000"></a>2.5. Some special tools</h2></div></div></div>
++<a name="idp47486848"></a>2.5. Some special tools</h2></div></div></div>
+ <p>
+ 
+ The installer has some special commands which can be used in postinst or
+@@ -666,7 +666,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61187440"></a>2.6. Automating the install using preseeding</h2></div></div></div>
++<a name="idp47502288"></a>2.6. Automating the install using preseeding</h2></div></div></div>
+ <p>
+ 
+ There are three preconfiguration methods that are currently supported:
+@@ -734,7 +734,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61203360"></a>2.7. Debugging the installer</h2></div></div></div>
++<a name="idp47518208"></a>2.7. Debugging the installer</h2></div></div></div>
+ <p>
+ 
+ Because most of the installer is scripted, it is fairly easy to debug most
+@@ -764,7 +764,7 @@
+ <p>
+ 
+ If you boot the installer at medium priority, you will also be able to load
+-the optional component <code class="classname">openssh-client-udeb</code><a href="#ftn.idp61208368" class="footnote" name="idp61208368"><sup class="footnote">[4]</sup></a>. Loading this component will allow you to use <span class="command"><strong>scp</strong></span>
++the optional component <code class="classname">openssh-client-udeb</code><a href="#ftn.idp47523216" class="footnote" name="idp47523216"><sup class="footnote">[4]</sup></a>. Loading this component will allow you to use <span class="command"><strong>scp</strong></span>
+ to copy files from the system being installed to another computer and vice
+ versa. Also useful for testing new versions of scripts or commands without
+ rebuilding the udeb and image. The command <span class="command"><strong>nc</strong></span> from the
+@@ -774,26 +774,26 @@
+ </div>
+ <div class="footnotes">
+ <br><hr style="width:100; text-align:left;margin-left: 0">
+-<div id="ftn.idp59033968" class="footnote"><p><a href="#idp59033968" class="para"><sup class="para">[1] </sup></a>
++<div id="ftn.idp42556848" class="footnote"><p><a href="#idp42556848" class="para"><sup class="para">[1] </sup></a>
+ The mips architectures currently do not use partman for partitioning, file
+ system creation and mount point selection but instead use other components.
+ Some architectures also use specific additional components as part of their
+ default installation. However, this does not make them structurally different.
+ </p></div>
+-<div id="ftn.idp60273120" class="footnote"><p><a href="#idp60273120" class="para"><sup class="para">[2] </sup></a>
++<div id="ftn.idp42561248" class="footnote"><p><a href="#idp42561248" class="para"><sup class="para">[2] </sup></a>
+ With one exception. In floppy disk based installations, the initrd does not
+ contain all needed components for stage 2, but it does have the ability to
+ load additional components that belong to stage 1 or are needed for stage 2
+ from additional floppy disks.
+ </p></div>
+-<div id="ftn.idp61088288" class="footnote"><p><a href="#idp61088288" class="para"><sup class="para">[3] </sup></a>
++<div id="ftn.idp47403136" class="footnote"><p><a href="#idp47403136" class="para"><sup class="para">[3] </sup></a>
+ 
+ The last question can also be rephrased as <span class="quote">“<span class="quote">what source lines are set
+ up in the <code class="filename">/etc/apt/sources.list</code> file for the target
+ system</span>”</span>.
+ 
+ </p></div>
+-<div id="ftn.idp61208368" class="footnote"><p><a href="#idp61208368" class="para"><sup class="para">[4] </sup></a>
++<div id="ftn.idp47523216" class="footnote"><p><a href="#idp47523216" class="para"><sup class="para">[4] </sup></a>
+ If you want to load optional components when installing at the default
+ priority, you need to back out to the menu, change the debconf priority to
+ medium or low, and then select the component that installs additional installer
+diff -Nuar debian/usr/share/doc/debian-installer/devel/internals/ch03.html pardus/usr/share/doc/debian-installer/devel/internals/ch03.html
+--- debian/usr/share/doc/debian-installer/devel/internals/ch03.html	2016-06-02 13:15:03.000000000 +0300
++++ pardus/usr/share/doc/debian-installer/devel/internals/ch03.html	2016-06-28 17:17:13.000000000 +0300
+@@ -29,9 +29,9 @@
+ <div class="toc">
+ <p><b>Table of Contents</b></p>
+ <dl class="toc">
+-<dt><span class="sect1"><a href="ch03.html#idp61394944">3.1. Contents of a udeb</a></span></dt>
+-<dt><span class="sect1"><a href="ch03.html#idp61400480">3.2. Creating a udeb</a></span></dt>
+-<dt><span class="sect1"><a href="ch03.html#idp61411200">3.3. Library udebs</a></span></dt>
++<dt><span class="sect1"><a href="ch03.html#idp47709920">3.1. Contents of a udeb</a></span></dt>
++<dt><span class="sect1"><a href="ch03.html#idp47715280">3.2. Creating a udeb</a></span></dt>
++<dt><span class="sect1"><a href="ch03.html#idp47726000">3.3. Library udebs</a></span></dt>
+ </dl>
+ </div>
+ <p>
+@@ -46,7 +46,7 @@
+ 
+ The main difference is that a lot of policy requirements are waived. For
+ example, a udeb does not contain a changelog, licence, manpages or
+-md5sums<a href="#ftn.idp61345008" class="footnote" name="idp61345008"><sup class="footnote">[5]</sup></a>. The reason is to minimize size which is important as the
++md5sums<a href="#ftn.idp47659984" class="footnote" name="idp47659984"><sup class="footnote">[5]</sup></a>. The reason is to minimize size which is important as the
+ installation takes place completely in RAM, with swap only becoming
+ available after stage 4 of the installation (partitioning).
+ 
+@@ -93,7 +93,7 @@
+ </p>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61394944"></a>3.1. Contents of a udeb</h2></div></div></div>
++<a name="idp47709920"></a>3.1. Contents of a udeb</h2></div></div></div>
+ <p>
+ 
+ For components that are included in the main menu, the udeb will contain
+@@ -140,7 +140,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61400480"></a>3.2. Creating a udeb</h2></div></div></div>
++<a name="idp47715280"></a>3.2. Creating a udeb</h2></div></div></div>
+ <p>
+ 
+ Creating a udeb is not all that hard, especially if you use
+@@ -180,7 +180,7 @@
+ <code class="literal">XB-Installer-Menu-Item</code> is added in the control file for
+ the udeb and will eventually end up in the <code class="classname">dpkg</code>
+ status file to help <code class="classname">main-menu</code> figure out that this
+-udeb should be included in the menu and in what order<a href="#ftn.idp61408880" class="footnote" name="idp61408880"><sup class="footnote">[6]</sup></a>.
++udeb should be included in the menu and in what order<a href="#ftn.idp47723680" class="footnote" name="idp47723680"><sup class="footnote">[6]</sup></a>.
+ 
+ Packaging a udeb becomes a bit harder if it is derived from a regular
+ package but needs to be compiled with different compiler options (e.g.
+@@ -198,7 +198,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61411200"></a>3.3. Library udebs</h2></div></div></div>
++<a name="idp47726000"></a>3.3. Library udebs</h2></div></div></div>
+ <p>
+ 
+ Creation of correct dependencies on library udebs depends on
+@@ -245,11 +245,11 @@
+ </div>
+ <div class="footnotes">
+ <br><hr style="width:100; text-align:left;margin-left: 0">
+-<div id="ftn.idp61345008" class="footnote"><p><a href="#idp61345008" class="para"><sup class="para">[5] </sup></a>
++<div id="ftn.idp47659984" class="footnote"><p><a href="#idp47659984" class="para"><sup class="para">[5] </sup></a>
+ Of course, the source package for a udeb <span class="emphasis"><em>does</em></span> contain
+ a licence and changelog.
+ </p></div>
+-<div id="ftn.idp61408880" class="footnote"><p><a href="#idp61408880" class="para"><sup class="para">[6] </sup></a>
++<div id="ftn.idp47723680" class="footnote"><p><a href="#idp47723680" class="para"><sup class="para">[6] </sup></a>
+ See <a class="xref" href="apa.html" title="Appendix A. Menu Item numbers">Appendix A, <i>Menu Item numbers</i></a> for the specification of menu numbers that
+ currently are in use.
+ </p></div>
+diff -Nuar debian/usr/share/doc/debian-installer/devel/internals/ch04.html pardus/usr/share/doc/debian-installer/devel/internals/ch04.html
+--- debian/usr/share/doc/debian-installer/devel/internals/ch04.html	2016-06-02 13:15:03.000000000 +0300
++++ pardus/usr/share/doc/debian-installer/devel/internals/ch04.html	2016-06-28 17:17:13.000000000 +0300
+@@ -29,21 +29,21 @@
+ <div class="toc">
+ <p><b>Table of Contents</b></p>
+ <dl class="toc">
+-<dt><span class="sect1"><a href="ch04.html#idp61477840">4.1. The standard D-I and CD images</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47792832">4.1. The standard D-I and CD images</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect2"><a href="ch04.html#idp61479136">4.1.1. Debian Installer images</a></span></dt>
+-<dt><span class="sect2"><a href="ch04.html#idp61490208">4.1.2. CD and DVD images</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47794128">4.1.1. Debian Installer images</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47805200">4.1.2. CD and DVD images</a></span></dt>
+ </dl></dd>
+-<dt><span class="sect1"><a href="ch04.html#idp61495536">4.2. Requirements for building</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61500096">4.3. Build targets</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61510624">4.4. The build system explained</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47810528">4.2. Requirements for building</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47815088">4.3. Build targets</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47825616">4.4. The build system explained</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect2"><a href="ch04.html#idp61522800">4.4.1. config</a></span></dt>
+-<dt><span class="sect2"><a href="ch04.html#idp61531248">4.4.2. pkg-lists</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47837792">4.4.1. config</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47846240">4.4.2. pkg-lists</a></span></dt>
+ </dl></dd>
+-<dt><span class="sect1"><a href="ch04.html#idp61547376">4.5. Result of the build</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61551344">4.6. Library reduction</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61559088">4.7. Using localudebs</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47862368">4.5. Result of the build</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47866336">4.6. Library reduction</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47874080">4.7. Using localudebs</a></span></dt>
+ </dl>
+ </div>
+ <p>
+@@ -103,7 +103,7 @@
+ <span class="command"><strong>debian/rules</strong></span>.
+ This will create a binary package (needed for uploading) containing some
+ documentation, but the important bit is a tarball containing all installer
+-images. After the upload this tarball needs BYHAND processing<a href="#ftn.idp61471360" class="footnote" name="idp61471360"><sup class="footnote">[7]</sup></a> by FTP-masters before the buildds will pick up the upload for
++images. After the upload this tarball needs BYHAND processing<a href="#ftn.idp47786352" class="footnote" name="idp47786352"><sup class="footnote">[7]</sup></a> by FTP-masters before the buildds will pick up the upload for
+ other architectures.
+ Nowadays the BYHAND processing for <code class="classname">debian-installer</code>
+ (and also for <code class="classname">tasksel</code>) is automated.
+@@ -112,13 +112,13 @@
+ <p>
+ 
+ Building images for development and testing is done from the
+-<code class="filename">installer/build</code> directory<a href="#ftn.idp61474720" class="footnote" name="idp61474720"><sup class="footnote">[8]</sup></a> using
++<code class="filename">installer/build</code> directory<a href="#ftn.idp47789712" class="footnote" name="idp47789712"><sup class="footnote">[8]</sup></a> using
+ <span class="command"><strong>fakeroot make &lt;<em class="replaceable"><code>target</code></em>&gt;</strong></span>.
+ 
+ </p>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61477840"></a>4.1. The standard D-I and CD images</h2></div></div></div>
++<a name="idp47792832"></a>4.1. The standard D-I and CD images</h2></div></div></div>
+ <p>
+ 
+ An important difference between release and development builds is that
+@@ -131,7 +131,7 @@
+ </p>
+ <div class="sect2">
+ <div class="titlepage"><div><div><h3 class="title">
+-<a name="idp61479136"></a>4.1.1. Debian Installer images</h3></div></div></div>
++<a name="idp47794128"></a>4.1.1. Debian Installer images</h3></div></div></div>
+ <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+ <li class="listitem">
+ daily D-I builds are built in unstable and use udebs from unstable
+@@ -191,7 +191,7 @@
+ </div>
+ <div class="sect2">
+ <div class="titlepage"><div><div><h3 class="title">
+-<a name="idp61490208"></a>4.1.2. CD and DVD images</h3></div></div></div>
++<a name="idp47805200"></a>4.1.2. CD and DVD images</h3></div></div></div>
+ <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+ <li class="listitem">
+ daily <span class="quote">“<span class="quote">sid_d-i</span>”</span> CD images are built using daily D-I builds,
+@@ -223,7 +223,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61495536"></a>4.2. Requirements for building</h2></div></div></div>
++<a name="idp47810528"></a>4.2. Requirements for building</h2></div></div></div>
+ <p>
+ 
+ For both release and development builds the build dependencies as listed
+@@ -249,7 +249,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61500096"></a>4.3. Build targets</h2></div></div></div>
++<a name="idp47815088"></a>4.3. Build targets</h2></div></div></div>
+ <p>
+ 
+ To see which targets are available, run <span class="command"><strong>make</strong></span>. This will
+@@ -294,7 +294,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61510624"></a>4.4. The build system explained</h2></div></div></div>
++<a name="idp47825616"></a>4.4. The build system explained</h2></div></div></div>
+ <p>
+ 
+ The easiest way to start is with the purpose of the subdirectories in the
+@@ -341,7 +341,7 @@
+ </p>
+ <div class="sect2">
+ <div class="titlepage"><div><div><h3 class="title">
+-<a name="idp61522800"></a>4.4.1. config</h3></div></div></div>
++<a name="idp47837792"></a>4.4.1. config</h3></div></div></div>
+ <p>
+ 
+ For example, the definition for i386 images starts with
+@@ -394,7 +394,7 @@
+ </div>
+ <div class="sect2">
+ <div class="titlepage"><div><div><h3 class="title">
+-<a name="idp61531248"></a>4.4.2. pkg-lists</h3></div></div></div>
++<a name="idp47846240"></a>4.4.2. pkg-lists</h3></div></div></div>
+ <p>
+ 
+ The list of udebs to be included in an image is built by the
+@@ -483,7 +483,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61547376"></a>4.5. Result of the build</h2></div></div></div>
++<a name="idp47862368"></a>4.5. Result of the build</h2></div></div></div>
+ <p>
+ 
+ If the build is successful, the images that were built can be found under
+@@ -502,7 +502,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61551344"></a>4.6. Library reduction</h2></div></div></div>
++<a name="idp47866336"></a>4.6. Library reduction</h2></div></div></div>
+ <p>
+ 
+ Library reduction (relinking a library leaving out unused symbols) is used
+@@ -550,7 +550,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61559088"></a>4.7. Using localudebs</h2></div></div></div>
++<a name="idp47874080"></a>4.7. Using localudebs</h2></div></div></div>
+ <p>
+ 
+ The <code class="filename">localudebs</code> directory allows to use a different
+@@ -612,12 +612,12 @@
+ </div>
+ <div class="footnotes">
+ <br><hr style="width:100; text-align:left;margin-left: 0">
+-<div id="ftn.idp61471360" class="footnote"><p><a href="#idp61471360" class="para"><sup class="para">[7] </sup></a>
++<div id="ftn.idp47786352" class="footnote"><p><a href="#idp47786352" class="para"><sup class="para">[7] </sup></a>
+ This entails unpacking the tarball into the correct location on the master
+ mirror server and creating/updating the correct symlinks. See for example
+ <a class="ulink" href="http://ftp.debian.org/debian/dists/sid/main/installer-i386/" target="_top">http://ftp.debian.org/debian/dists/sid/main/installer-i386/</a>.
+ </p></div>
+-<div id="ftn.idp61474720" class="footnote"><p><a href="#idp61474720" class="para"><sup class="para">[8] </sup></a>
++<div id="ftn.idp47789712" class="footnote"><p><a href="#idp47789712" class="para"><sup class="para">[8] </sup></a>
+ This includes the daily built images available from
+ <a class="ulink" href="http://www.debian.org/devel/debian-installer" target="_top">http://www.debian.org/devel/debian-installer</a>. These are
+ generated and uploaded from machines run by d-i porters using the
+diff -Nuar debian/usr/share/doc/debian-installer/devel/internals/ch05.html pardus/usr/share/doc/debian-installer/devel/internals/ch05.html
+--- debian/usr/share/doc/debian-installer/devel/internals/ch05.html	2016-06-02 13:15:03.000000000 +0300
++++ pardus/usr/share/doc/debian-installer/devel/internals/ch05.html	2016-06-28 17:17:13.000000000 +0300
+@@ -29,8 +29,8 @@
+ <div class="toc">
+ <p><b>Table of Contents</b></p>
+ <dl class="toc">
+-<dt><span class="sect1"><a href="ch05.html#idp61639440">5.1. Updating to a new Linux kernel version</a></span></dt>
+-<dt><span class="sect1"><a href="ch05.html#idp61690208">5.2. Dropping a deprecated filesystem</a></span></dt>
++<dt><span class="sect1"><a href="ch05.html#idp47954560">5.1. Updating to a new Linux kernel version</a></span></dt>
++<dt><span class="sect1"><a href="ch05.html#idp48005200">5.2. Dropping a deprecated filesystem</a></span></dt>
+ </dl>
+ </div>
+ <p>
+@@ -42,7 +42,7 @@
+ </p>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61639440"></a>5.1. Updating to a new Linux<a href="#ftn.idp61639824" class="footnote" name="idp61639824"><sup class="footnote">[9]</sup></a> kernel version</h2></div></div></div>
++<a name="idp47954560"></a>5.1. Updating to a new Linux<a href="#ftn.idp47954944" class="footnote" name="idp47954944"><sup class="footnote">[9]</sup></a> kernel version</h2></div></div></div>
+ <p>
+ This is possible when the <code class="classname">linux</code> package gets
+ uploaded, bumping its ABI. For example, it gets bumped from
+@@ -76,7 +76,7 @@
+ </div>
+ <div class="sect1">
+ <div class="titlepage"><div><div><h2 class="title" style="clear: both">
+-<a name="idp61690208"></a>5.2. Dropping a deprecated filesystem</h2></div></div></div>
++<a name="idp48005200"></a>5.2. Dropping a deprecated filesystem</h2></div></div></div>
+ <p>
+ 
+ This is needed when the kernel drops support for a filesystem, say
+@@ -166,7 +166,7 @@
+ </div>
+ <div class="footnotes">
+ <br><hr style="width:100; text-align:left;margin-left: 0">
+-<div id="ftn.idp61639824" class="footnote"><p><a href="#idp61639824" class="para"><sup class="para">[9] </sup></a>The same logic should
++<div id="ftn.idp47954944" class="footnote"><p><a href="#idp47954944" class="para"><sup class="para">[9] </sup></a>The same logic should
+ be applicable to the FreeBSD kernel, even if some details might be
+ different.</p></div>
+ </div>
+diff -Nuar debian/usr/share/doc/debian-installer/devel/internals/index.html pardus/usr/share/doc/debian-installer/devel/internals/index.html
+--- debian/usr/share/doc/debian-installer/devel/internals/index.html	2016-06-02 13:15:03.000000000 +0300
++++ pardus/usr/share/doc/debian-installer/devel/internals/index.html	2016-06-28 17:17:13.000000000 +0300
+@@ -25,13 +25,13 @@
+ <div class="titlepage">
+ <div>
+ <div><h1 class="title">
+-<a name="idp56600160"></a>Debian Installer internals</h1></div>
++<a name="idp46278592"></a>Debian Installer internals</h1></div>
+ <div><div class="authorgroup"><div class="author"><h3 class="author">
+ <span class="firstname">Frans</span> <span class="surname">Pop</span>
+ </h3></div></div></div>
+ <div><p class="copyright">Copyright © 2006, 2008, 2010 Frans Pop <code class="email">&lt;<a class="email" href="mailto:fjp@debian.org">fjp@debian.org</a>&gt;</code></p></div>
+ <div><div class="legalnotice">
+-<a name="idp55849968"></a><p>
++<a name="idp42531152"></a><p>
+ 
+ This document is free; you may redistribute it and/or modify it
+ under the terms of version 2 of the GNU General Public License.
+@@ -58,57 +58,57 @@
+ <dt><span class="chapter"><a href="ch01.html">1. Introduction</a></span></dt>
+ <dt><span class="chapter"><a href="ch02.html">2. Running Debian Installer</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect1"><a href="ch02.html#idp61086016">2.1. Installation methods</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47400704">2.1. Installation methods</a></span></dt>
+ <dt><span class="sect1"><a href="ch02.html#di-boot">2.2. The boot process</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61157232">2.3. The Debian Installer Menu</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47472080">2.3. The Debian Installer Menu</a></span></dt>
+ <dt><span class="sect1"><a href="ch02.html#hooks">2.4. Hooks provide additional flexibility</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61172000">2.5. Some special tools</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61187440">2.6. Automating the install using preseeding</a></span></dt>
+-<dt><span class="sect1"><a href="ch02.html#idp61203360">2.7. Debugging the installer</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47486848">2.5. Some special tools</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47502288">2.6. Automating the install using preseeding</a></span></dt>
++<dt><span class="sect1"><a href="ch02.html#idp47518208">2.7. Debugging the installer</a></span></dt>
+ </dl></dd>
+ <dt><span class="chapter"><a href="ch03.html">3. D-I components or udebs</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect1"><a href="ch03.html#idp61394944">3.1. Contents of a udeb</a></span></dt>
+-<dt><span class="sect1"><a href="ch03.html#idp61400480">3.2. Creating a udeb</a></span></dt>
+-<dt><span class="sect1"><a href="ch03.html#idp61411200">3.3. Library udebs</a></span></dt>
++<dt><span class="sect1"><a href="ch03.html#idp47709920">3.1. Contents of a udeb</a></span></dt>
++<dt><span class="sect1"><a href="ch03.html#idp47715280">3.2. Creating a udeb</a></span></dt>
++<dt><span class="sect1"><a href="ch03.html#idp47726000">3.3. Library udebs</a></span></dt>
+ </dl></dd>
+ <dt><span class="chapter"><a href="ch04.html">4. Building installer images</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect1"><a href="ch04.html#idp61477840">4.1. The standard D-I and CD images</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47792832">4.1. The standard D-I and CD images</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect2"><a href="ch04.html#idp61479136">4.1.1. Debian Installer images</a></span></dt>
+-<dt><span class="sect2"><a href="ch04.html#idp61490208">4.1.2. CD and DVD images</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47794128">4.1.1. Debian Installer images</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47805200">4.1.2. CD and DVD images</a></span></dt>
+ </dl></dd>
+-<dt><span class="sect1"><a href="ch04.html#idp61495536">4.2. Requirements for building</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61500096">4.3. Build targets</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61510624">4.4. The build system explained</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47810528">4.2. Requirements for building</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47815088">4.3. Build targets</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47825616">4.4. The build system explained</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect2"><a href="ch04.html#idp61522800">4.4.1. config</a></span></dt>
+-<dt><span class="sect2"><a href="ch04.html#idp61531248">4.4.2. pkg-lists</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47837792">4.4.1. config</a></span></dt>
++<dt><span class="sect2"><a href="ch04.html#idp47846240">4.4.2. pkg-lists</a></span></dt>
+ </dl></dd>
+-<dt><span class="sect1"><a href="ch04.html#idp61547376">4.5. Result of the build</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61551344">4.6. Library reduction</a></span></dt>
+-<dt><span class="sect1"><a href="ch04.html#idp61559088">4.7. Using localudebs</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47862368">4.5. Result of the build</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47866336">4.6. Library reduction</a></span></dt>
++<dt><span class="sect1"><a href="ch04.html#idp47874080">4.7. Using localudebs</a></span></dt>
+ </dl></dd>
+ <dt><span class="chapter"><a href="ch05.html">5. Maintenance of the installer</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect1"><a href="ch05.html#idp61639440">5.1. Updating to a new Linux kernel version</a></span></dt>
+-<dt><span class="sect1"><a href="ch05.html#idp61690208">5.2. Dropping a deprecated filesystem</a></span></dt>
++<dt><span class="sect1"><a href="ch05.html#idp47954560">5.1. Updating to a new Linux kernel version</a></span></dt>
++<dt><span class="sect1"><a href="ch05.html#idp48005200">5.2. Dropping a deprecated filesystem</a></span></dt>
+ </dl></dd>
+ <dt><span class="appendix"><a href="apa.html">A. Menu Item numbers</a></span></dt>
+ <dt><span class="appendix"><a href="apb.html">B. Available hooks</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect1"><a href="apb.html#idp61720960">B.1. run-parts type hooks</a></span></dt>
++<dt><span class="sect1"><a href="apb.html#idp48035952">B.1. run-parts type hooks</a></span></dt>
+ <dd><dl>
+ <dt><span class="sect2"><a href="apb.html#ap-hooks-boot">B.1.1. System boot</a></span></dt>
+ <dt><span class="sect2"><a href="apb.html#ap-hooks-general">B.1.2. General purpose run-parts hooks</a></span></dt>
+ <dt><span class="sect2"><a href="apb.html#ap-hooks-special">B.1.3. Special purpose run-parts hooks</a></span></dt>
+-<dt><span class="sect2"><a href="apb.html#idp61791120">B.1.4. Partitioning — deprecated components</a></span></dt>
++<dt><span class="sect2"><a href="apb.html#idp48106032">B.1.4. Partitioning — deprecated components</a></span></dt>
+ </dl></dd>
+-<dt><span class="sect1"><a href="apb.html#idp61798080">B.2. Other hooks</a></span></dt>
++<dt><span class="sect1"><a href="apb.html#idp48112992">B.2. Other hooks</a></span></dt>
+ <dd><dl>
+-<dt><span class="sect2"><a href="apb.html#idp61799392">B.2.1. Hooks available for customization</a></span></dt>
+-<dt><span class="sect2"><a href="apb.html#idp61803968">B.2.2. Hooks reserved for internal use</a></span></dt>
++<dt><span class="sect2"><a href="apb.html#idp48114304">B.2.1. Hooks available for customization</a></span></dt>
++<dt><span class="sect2"><a href="apb.html#idp48118880">B.2.2. Hooks reserved for internal use</a></span></dt>
+ </dl></dd>
+ </dl></dd>
+ </dl>

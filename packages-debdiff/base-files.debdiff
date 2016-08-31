@@ -1,0 +1,23 @@
+[The following lists of changes regard files as different if they have
+different names, permissions or owners.]
+
+Files in second .deb but not in first
+-------------------------------------
+-rw-r--r--  pardus/pardus   /etc/debian_version
+-rw-r--r--  pardus/pardus   /etc/issue
+-rw-r--r--  pardus/pardus   /etc/issue.net
+-rw-r--r--  pardus/pardus   /etc/lsb-release
+-rw-r--r--  pardus/pardus   /etc/pardus-release
+-rw-r--r--  pardus/pardus   /etc/pardus_version
+-rw-r--r--  pardus/pardus   /usr/lib/os-release
+lrwxrwxrwx  pardus/pardus   /etc/os-release -> ../usr/lib/os-release
+
+Files in first .deb but not in second
+-------------------------------------
+-rw-r--r--  root/root   /etc/debian_version
+-rw-r--r--  root/root   /etc/issue
+-rw-r--r--  root/root   /etc/issue.net
+-rw-r--r--  root/root   /usr/lib/os-release
+lrwxrwxrwx  root/root   /etc/os-release -> ../usr/lib/os-release
+
+No differences were encountered between the control files

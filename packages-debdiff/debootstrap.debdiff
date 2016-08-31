@@ -1,0 +1,8 @@
+[The following lists of changes regard files as different if they have
+different names, permissions or owners.]
+
+Files in second .deb but not in first
+-------------------------------------
+lrwxrwxrwx  root/root   /usr/share/debootstrap/scripts/yenikusak -> jessie
+
+No differences were encountered between the control files

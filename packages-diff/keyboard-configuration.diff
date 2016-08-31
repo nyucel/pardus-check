@@ -1,0 +1,26 @@
+diff -Nuar debian/etc/default/keyboard pardus/etc/default/keyboard
+--- debian/etc/default/keyboard	1970-01-01 02:00:00.000000000 +0200
++++ pardus/etc/default/keyboard	2015-03-16 11:15:41.000000000 +0200
+@@ -0,0 +1,10 @@
++# KEYBOARD CONFIGURATION FILE
++
++# Consult the keyboard(5) manual page.
++
++XKBMODEL=pc105
++XKBLAYOUT=tr
++XKBVARIANT=
++XKBOPTIONS=
++
++BACKSPACE=guess
+diff -Nuar debian/usr/share/console-setup/keyboard pardus/usr/share/console-setup/keyboard
+--- debian/usr/share/console-setup/keyboard	2015-04-21 08:35:14.000000000 +0300
++++ pardus/usr/share/console-setup/keyboard	2015-03-05 17:39:30.000000000 +0200
+@@ -3,7 +3,7 @@
+ # Consult the keyboard(5) manual page.
+ 
+ XKBMODEL=pc105
+-XKBLAYOUT=us
++XKBLAYOUT=tr
+ XKBVARIANT=
+ XKBOPTIONS=
+ 

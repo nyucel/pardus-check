@@ -1,0 +1,10 @@
+diff -Nuar debian/etc/default/rcS pardus/etc/default/rcS
+--- debian/etc/default/rcS	2015-04-06 18:50:43.000000000 +0300
++++ pardus/etc/default/rcS	2014-10-21 16:39:32.000000000 +0300
+@@ -22,3 +22,6 @@
+ 
+ # automatically repair filesystems with inconsistencies during boot
+ #FSCKFIX=no
++
++UTC=false
++

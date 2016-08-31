@@ -1,0 +1,218 @@
+diff -Nuar debian/usr/lib/python2.7/dist-packages/synaptiks/kde/widgets/ui/touchpadInformationwidget.ui pardus/usr/lib/python2.7/dist-packages/synaptiks/kde/widgets/ui/touchpadInformationwidget.ui
+--- debian/usr/lib/python2.7/dist-packages/synaptiks/kde/widgets/ui/touchpadInformationwidget.ui	1970-01-01 02:00:00.000000000 +0200
++++ pardus/usr/lib/python2.7/dist-packages/synaptiks/kde/widgets/ui/touchpadInformationwidget.ui	2012-01-10 23:49:38.000000000 +0200
+@@ -0,0 +1,214 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<ui version="4.0">
++ <author>Sebastian Wiesner</author>
++ <class>TouchpadInformationWidget</class>
++ <widget class="QWidget" name="TouchpadInformationWidget">
++  <property name="geometry">
++   <rect>
++    <x>0</x>
++    <y>0</y>
++    <width>430</width>
++    <height>272</height>
++   </rect>
++  </property>
++  <property name="windowTitle">
++   <string comment="@title:window">Touchpad information</string>
++  </property>
++  <layout class="QVBoxLayout" name="verticalLayout">
++   <item>
++    <widget class="QLabel" name="nameLabel">
++     <property name="textFormat">
++      <enum>Qt::RichText</enum>
++     </property>
++     <property name="alignment">
++      <set>Qt::AlignCenter</set>
++     </property>
++    </widget>
++   </item>
++   <item>
++    <widget class="Line" name="line">
++     <property name="orientation">
++      <enum>Qt::Horizontal</enum>
++     </property>
++    </widget>
++   </item>
++   <item>
++    <layout class="QFormLayout" name="formLayout">
++     <item row="0" column="0">
++      <widget class="QLabel" name="label">
++       <property name="text">
++        <string comment="@label:spinbox">How many fingers are detected by this touchpad?</string>
++       </property>
++       <property name="buddy">
++        <cstring>fingerDetection</cstring>
++       </property>
++      </widget>
++     </item>
++     <item row="0" column="1">
++      <widget class="QSpinBox" name="fingerDetection">
++       <property name="readOnly">
++        <bool>true</bool>
++       </property>
++       <property name="buttonSymbols">
++        <enum>QAbstractSpinBox::NoButtons</enum>
++       </property>
++      </widget>
++     </item>
++    </layout>
++   </item>
++   <item>
++    <widget class="QGroupBox" name="twoFingerEmulationBox">
++     <property name="title">
++      <string>Two-finger emulation</string>
++     </property>
++     <layout class="QGridLayout" name="gridLayout_3">
++      <item row="0" column="0">
++       <widget class="QLabel" name="pressureLabel">
++        <property name="text">
++         <string comment="@label touchpad information detection of pressure of a touch">Pressure detection</string>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="0" column="1">
++       <widget class="QLabel" name="widthLabel">
++        <property name="text">
++         <string comment="@label touchpad information detection of finger width">Finger width detection</string>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="0" column="2">
++       <widget class="QLabel" name="emulationLabel">
++        <property name="text">
++         <string comment="@label touchpad information two-finger emulation supported">Two-finger emulation</string>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="1" column="0">
++       <widget class="QLabel" name="pressureDetection">
++        <property name="text">
++         <string/>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="1" column="1">
++       <widget class="QLabel" name="fingerWidthDetection">
++        <property name="text">
++         <string/>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="1" column="2">
++       <widget class="QLabel" name="twoFingerEmulation">
++        <property name="text">
++         <string/>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++     </layout>
++    </widget>
++   </item>
++   <item>
++    <widget class="QGroupBox" name="groupBox">
++     <property name="title">
++      <string comment="@title:group touchpad information mouse button support">Buttons</string>
++     </property>
++     <layout class="QGridLayout" name="gridLayout">
++      <item row="0" column="0">
++       <widget class="QLabel" name="leftLabel">
++        <property name="text">
++         <string comment="@label touchpad information mouse button">Left button</string>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="0" column="1">
++       <widget class="QLabel" name="middleLabel">
++        <property name="text">
++         <string comment="@label touchpad information mouse button">Middle button</string>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="0" column="2">
++       <widget class="QLabel" name="rightLabel">
++        <property name="text">
++         <string comment="@label touchpad information mouse button">Right button</string>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="1" column="0">
++       <widget class="QLabel" name="leftButton">
++        <property name="text">
++         <string/>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="1" column="1">
++       <widget class="QLabel" name="middleButton">
++        <property name="text">
++         <string/>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++      <item row="1" column="2">
++       <widget class="QLabel" name="rightButton">
++        <property name="text">
++         <string/>
++        </property>
++        <property name="alignment">
++         <set>Qt::AlignCenter</set>
++        </property>
++       </widget>
++      </item>
++     </layout>
++    </widget>
++   </item>
++   <item>
++    <spacer name="verticalSpacer">
++     <property name="orientation">
++      <enum>Qt::Vertical</enum>
++     </property>
++     <property name="sizeHint" stdset="0">
++      <size>
++       <width>20</width>
++       <height>40</height>
++      </size>
++     </property>
++    </spacer>
++   </item>
++  </layout>
++ </widget>
++ <resources/>
++ <connections/>
++</ui>

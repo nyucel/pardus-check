@@ -1,0 +1,22 @@
+[The following lists of changes regard files as different if they have
+different names, permissions or owners.]
+
+Files in second .deb but not in first
+-------------------------------------
+-rw-r--r--  pardus/pardus   /etc/default/kdm.d/10_desktop-base
+-rw-r--r--  pardus/pardus   /usr/share/desktop-base/kde4-profiles/default/share/config/ksplashrc
+-rw-r--r--  pardus/pardus   /usr/share/desktop-base/profiles/kde-profile/share/config/ksplashrc
+-rw-r--r--  pardus/pardus   /usr/share/desktop-base/profiles/kde-profile/share/config/plasma-desktop-appletsrc
+-rw-r--r--  pardus/pardus   /usr/share/desktop-base/profiles/kde-profile/share/config/plasmarc
+-rw-r--r--  pardus/pardus   /usr/share/gdm/dconf/10-desktop-base-settings
+-rw-r--r--  pardus/pardus   /usr/share/images/desktop-base/login-background.svg
+-rw-r--r--  pardus/pardus   /usr/share/kde4/config/kdeglobals
+
+Files in first .deb but not in second
+-------------------------------------
+-rw-r--r--  root/root   /etc/default/kdm.d/10_desktop-base
+-rw-r--r--  root/root   /usr/share/desktop-base/profiles/kde-profile/share/config/ksplashrc
+-rw-r--r--  root/root   /usr/share/images/desktop-base/login-background.svg
+-rw-r--r--  root/root   /usr/share/kde4/config/kdeglobals
+
+No differences were encountered between the control files

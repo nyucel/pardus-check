@@ -1,0 +1,78 @@
+diff -Nuar debian/etc/debian_version pardus/etc/debian_version
+--- debian/etc/debian_version	2016-05-22 13:49:07.000000000 +0300
++++ pardus/etc/debian_version	2013-05-05 13:00:00.000000000 +0300
+@@ -1 +1 @@
+-8.5
++jessie/sid
+diff -Nuar debian/etc/issue pardus/etc/issue
+--- debian/etc/issue	2016-05-30 07:18:56.000000000 +0300
++++ pardus/etc/issue	2015-04-20 11:41:53.000000000 +0300
+@@ -1,2 +1,2 @@
+-Debian GNU/Linux 8 \n \l
++Pardus GNU/Linux Kurumsal 5 \n \l
+ 
+diff -Nuar debian/etc/issue.net pardus/etc/issue.net
+--- debian/etc/issue.net	2016-05-30 07:18:56.000000000 +0300
++++ pardus/etc/issue.net	2015-04-20 11:42:04.000000000 +0300
+@@ -1 +1 @@
+-Debian GNU/Linux 8
++Pardus GNU/Linux Kurumsal 5
+diff -Nuar debian/etc/lsb-release pardus/etc/lsb-release
+--- debian/etc/lsb-release	1970-01-01 02:00:00.000000000 +0200
++++ pardus/etc/lsb-release	2015-03-12 18:05:29.000000000 +0200
+@@ -0,0 +1,4 @@
++DISTRIB_ID=Pardus
++DISTRIB_RELEASE=
++DISTRIB_CODENAME=
++DISTRIB_DESCRIPTION="Pardus "
+\ Dosya sonunda yenisatır yok.
+diff -Nuar debian/etc/os-release pardus/etc/os-release
+--- debian/etc/os-release	2016-05-30 07:18:56.000000000 +0300
++++ pardus/etc/os-release	2015-04-20 11:42:16.000000000 +0300
+@@ -1,8 +1,6 @@
+-PRETTY_NAME="Debian GNU/Linux 8 (jessie)"
+-NAME="Debian GNU/Linux"
+-VERSION_ID="8"
+-VERSION="8 (jessie)"
+-ID=debian
+-HOME_URL="http://www.debian.org/"
+-SUPPORT_URL="http://www.debian.org/support"
+-BUG_REPORT_URL="https://bugs.debian.org/"
++PRETTY_NAME="Pardus GNU/Linux Kurumsal 5"
++NAME="Pardus GNU/Linux"
++ID=pardus
++HOME_URL="http://www.pardus.org.tr/"
++SUPPORT_URL="http://www.pardus.org.tr/support/"
++BUG_REPORT_URL="https://bugs.pardus.org.tr/"
+diff -Nuar debian/etc/pardus-release pardus/etc/pardus-release
+--- debian/etc/pardus-release	1970-01-01 02:00:00.000000000 +0200
++++ pardus/etc/pardus-release	2015-03-12 18:05:29.000000000 +0200
+@@ -0,0 +1,4 @@
++DISTRIB_ID=Pardus
++DISTRIB_RELEASE=
++DISTRIB_CODENAME=
++DISTRIB_DESCRIPTION="Pardus "
+diff -Nuar debian/etc/pardus_version pardus/etc/pardus_version
+--- debian/etc/pardus_version	1970-01-01 02:00:00.000000000 +0200
++++ pardus/etc/pardus_version	2015-04-20 11:42:28.000000000 +0300
+@@ -0,0 +1 @@
++Kurumsal 5
+\ Dosya sonunda yenisatır yok.
+diff -Nuar debian/usr/lib/os-release pardus/usr/lib/os-release
+--- debian/usr/lib/os-release	2016-05-30 07:18:56.000000000 +0300
++++ pardus/usr/lib/os-release	2015-04-20 11:42:16.000000000 +0300
+@@ -1,8 +1,6 @@
+-PRETTY_NAME="Debian GNU/Linux 8 (jessie)"
+-NAME="Debian GNU/Linux"
+-VERSION_ID="8"
+-VERSION="8 (jessie)"
+-ID=debian
+-HOME_URL="http://www.debian.org/"
+-SUPPORT_URL="http://www.debian.org/support"
+-BUG_REPORT_URL="https://bugs.debian.org/"
++PRETTY_NAME="Pardus GNU/Linux Kurumsal 5"
++NAME="Pardus GNU/Linux"
++ID=pardus
++HOME_URL="http://www.pardus.org.tr/"
++SUPPORT_URL="http://www.pardus.org.tr/support/"
++BUG_REPORT_URL="https://bugs.pardus.org.tr/"

@@ -1,0 +1,8 @@
+[The following lists of changes regard files as different if they have
+different names, permissions or owners.]
+
+Files in second .deb but not in first
+-------------------------------------
+lrwxrwxrwx  pardus/pardus   /usr/lib/python2.7/dist-packages/synaptiks/kde/widgets/ui/touchpadInformationwidget.ui -> touchpadinformationwidget.ui
+
+No differences were encountered between the control files

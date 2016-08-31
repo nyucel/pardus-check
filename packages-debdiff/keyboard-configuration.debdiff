@@ -1,0 +1,13 @@
+[The following lists of changes regard files as different if they have
+different names, permissions or owners.]
+
+Files in second .deb but not in first
+-------------------------------------
+-rw-r--r--  pardus/pardus   /etc/default/keyboard
+-rw-r--r--  pardus/pardus   /usr/share/console-setup/keyboard
+
+Files in first .deb but not in second
+-------------------------------------
+-rw-r--r--  root/root   /usr/share/console-setup/keyboard
+
+No differences were encountered between the control files

@@ -1,0 +1,12 @@
+[The following lists of changes regard files as different if they have
+different names, permissions or owners.]
+
+Files in second .deb but not in first
+-------------------------------------
+-rw-r--r--  pardus/pardus   /etc/kde4/kdm/kdmrc
+
+Files in first .deb but not in second
+-------------------------------------
+-rw-r--r--  root/root   /etc/kde4/kdm/kdmrc
+
+No differences were encountered between the control files

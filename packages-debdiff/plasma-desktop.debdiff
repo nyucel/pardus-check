@@ -1,0 +1,14 @@
+[The following lists of changes regard files as different if they have
+different names, permissions or owners.]
+
+Files in second .deb but not in first
+-------------------------------------
+-rw-r--r--  pardus/pardus   /usr/share/kde4/apps/plasma-desktop/init/00-defaultLayout.js
+-rwxr-xr-x  pardus/pardus   /usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.defaultPanel/contents/layout.js
+
+Files in first .deb but not in second
+-------------------------------------
+-rw-r--r--  root/root   /usr/share/kde4/apps/plasma-desktop/init/00-defaultLayout.js
+-rw-r--r--  root/root   /usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.defaultPanel/contents/layout.js
+
+No differences were encountered between the control files
