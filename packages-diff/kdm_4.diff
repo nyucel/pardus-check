@@ -1,0 +1,36 @@
+diff -Nuar debian/etc/kde4/kdm/kdmrc pardus/etc/kde4/kdm/kdmrc
+--- debian/etc/kde4/kdm/kdmrc	2014-11-07 11:21:00.000000000 +0200
++++ pardus/etc/kde4/kdm/kdmrc	2015-02-09 15:34:45.000000000 +0200
+@@ -350,7 +350,7 @@
+ #GreetString=Welcome to Debian at %n
+ # Whether the fonts used in the greeter should be antialiased.
+ # Default is false
+-#AntiAliasing=true
++AntiAliasing=true
+ # The font for the greeter headline. The value is encoded.
+ # Default is "Serif 20pt bold"
+ #GreetFont=Serif,20,-1,5,50,0,0,0,0,0
+@@ -480,7 +480,7 @@
+ # The theme to use for the greeter. Can point to either a directory or an XML
+ # file.
+ # Default is ""
+-Theme=@@@ToBeReplacedByDesktopBase@@@
++Theme=/usr/share/kde4/apps/kdm/themes/pardus-2014
+ # Enable the Alt-Ctrl-D shortcut to toggle greeter theme debugging.
+ # Default is false
+ #AllowThemeDebug=true
+@@ -575,12 +575,12 @@
+ #AutoLoginDelay=10
+ # The user to log in automatically. NEVER specify root!
+ # Default is ""
+-#AutoLoginUser=fred
++#AutoLoginUser=pardus
+ # The password for the user to log in automatically. This is NOT required
+ # unless the user is logged into a NIS or Kerberos domain. If you use this
+ # option, you should "chmod 600 kdmrc" for obvious reasons.
+ # Default is ""
+-#AutoLoginPass=secret!
++#AutoLoginPass=pardus
+ # Immediately lock the automatically started session. This works only with
+ # KDE sessions.
+ # Default is false
